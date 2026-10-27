@@ -1,0 +1,21 @@
+# Copy to config.toml if you want a file. The file is gitignored.
+# Environment variables and CLI flags override this file.
+# There is no user id, password, or auth code in this config.
+
+# mock: local quotes, no network.
+# ctp:  the selected server's market-data fronts only.
+# auto: try those fronts, and if none answer, keep the same board on mock quotes.
+mode = "auto"
+
+# Optional path to another Shinny broker.xml (UTF-8 or GB2312).
+# Omit to use the broker.xml shipped next to this file.
+# broker_xml = 'C:\Users\tianhm\AppData\Roaming\Q73N_shinny_22009_beta\20261022200046\broker.xml'
+
+# CTP 6.7.7 评测版行情库. Do not point this at Win64\vnctpmd.pyd or Linux64\thostmduserapi.so.
+# dynlib = 'C:\ctp\thostmduserapi_se.dll'
+
+# flow = "md_flow"
+# instruments = ["rb2610", "ag2612"]
+# tick_ms = 500
+# front_timeout_secs = 8
+# replay = "fixtures/demo-replay.jsonl"

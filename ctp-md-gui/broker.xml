@@ -1,0 +1,4604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+     <broker BrokerID="0052" BrokerName="A安粮期货" BrokerEName="alqh">	
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.249.90:33205</item>
+					<item>101.226.249.91:33205</item>
+					<item>211.95.60.131:33205</item>
+					<item>211.95.60.130:33205</item>
+				</Trading>
+				<MarketData>
+                    <item>101.226.249.90:33213</item>
+					<item>101.226.249.91:33213</item>
+					<item>211.95.60.131:33213</item>
+					<item>211.95.60.130:33213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="4080" BrokerName="B渤海期货" BrokerEName="bhfcc">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+                <Trading>
+                    <item>116.228.31.198:43205</item>
+                   <item>180.169.116.118:43205</item>
+                   <item>116.228.31.199:43205</item>
+                   <item>180.169.116.119:43205</item>
+				  <item>211.95.26.203:43205</item>
+                 <item>211.95.26.210:43205</item>
+                </Trading>
+                <MarketData>
+                   <item>116.228.31.198:43213</item>
+                   <item>180.169.116.118:43213</item>
+                   <item>116.228.31.199:43213</item>
+                   <item>180.169.116.119:43213</item>
+				  <item>211.95.26.203:43213</item>
+                  <item>211.95.26.210:43213</item>
+                </MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="0001" BrokerName="B宝城期货" BrokerEName="bcqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>222.68.181.33:31205</item>
+					<item>222.68.181.34:31205</item>
+					<item>27.115.108.81:31205</item>
+					<item>27.115.108.82:31205</item>
+				</Trading>
+				<MarketData>
+					<item>222.68.181.33:31213</item>
+					<item>222.68.181.34:31213</item>
+					<item>27.115.108.81:31213</item>
+					<item>27.115.108.82:31213</item>
+				</MarketData>
+			</Server>
+		</Servers>	
+	</broker>
+	<broker BrokerID="0001" BrokerName="B宝城期货" BrokerEName="bcqh">
+		<Servers>
+			<Server>
+				<Name>张江二席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>222.68.181.35:51205</item>
+					<item>222.68.181.36:51205</item>
+					<item>27.115.108.83:51205</item>
+					<item>27.115.108.84:51205</item>
+					<item>180.167.121.177:51205</item>
+					<item>180.167.121.178:51205</item>
+				</Trading>
+				<MarketData>
+					<item>222.68.181.35:51213</item>
+					<item>222.68.181.36:51213</item>
+					<item>27.115.108.83:51213</item>
+					<item>27.115.108.84:51213</item>
+					<item>180.167.121.177:51213</item>
+					<item>180.167.121.178:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>	
+	</broker>
+			<broker BrokerID="4300" BrokerName="C长江期货" BrokerEName="cjqh">
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+			
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+			    <Trading>
+					<item>61.183.150.151:41205</item>
+					<item>220.249.123.212:41205</item>
+				</Trading>
+				<MarketData>
+					<item>61.183.150.151:41213</item> 
+					<item>220.249.123.212:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="4300" BrokerName="C长江期货" BrokerEName="cjqh">
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+			
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+			    <Trading>
+					<item>101.226.249.101:41205</item>
+					<item>211.95.60.141:41205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.249.101:41213</item>
+					<item>211.95.60.141:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0000" BrokerName="C创元期货" BrokerEName="cyqh" ApiType="UFX">
+	<EntrustWay>K</EntrustWay>
+		<Servers>
+			<Server>
+				<Name>恒生</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>58.240.230.135:59020</item>
+					<item>58.240.230.135:59020</item>
+					<item>101.230.82.177:9020</item>
+					<item>101.230.82.177:9020</item>
+					<item>61.155.201.137:59020</item>
+					<item>61.155.201.137:59020</item>
+					<item>58.240.234.69:59020</item>
+					<item>58.240.234.69:59020</item>
+					<item>61.155.201.152:59020</item>
+					<item>61.155.201.152:59020</item>
+				</Trading>
+				<MarketData>
+					<item>58.240.230.135:59020</item>
+					<item>58.240.230.135:59020</item>
+					<item>101.230.82.177:9020</item>
+					<item>101.230.82.177:9020</item>
+					<item>61.155.201.137:59020</item>
+					<item>61.155.201.137:59020</item>
+					<item>58.240.234.69:59020</item>
+					<item>58.240.234.69:59020</item>
+					<item>61.155.201.152:59020</item>
+					<item>61.155.201.152:59020</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="9060" BrokerName="C创元期货" BrokerEName="cyqh">
+		<Servers>
+			<Server>
+				<Name>CTP</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>120.136.160.67:33437</item>
+					<item>120.136.171.99:33437</item>
+				</Trading>
+				<MarketData>
+					<item>120.136.160.67:33441</item>
+					<item>120.136.171.99:33441</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="7777" BrokerName="C长安期货" BrokerEName="cafut">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.77.195:41205</item>
+					<item>220.248.83.20:41205</item>
+					<item>101.230.77.196:41205</item>
+					<item>220.248.83.19:41205</item>
+					<item>101.226.249.2:41207</item>
+					<item>140.207.239.35:41207</item>
+					<item>101.226.249.3:41207</item>
+					<item>140.207.239.34:41207</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.77.195:41213</item>
+					<item>220.248.83.20:41213</item>
+					<item>101.230.77.196:41213</item>
+					<item>220.248.83.19:41213</item>
+					<item>101.226.249.2:41215</item>
+					<item>140.207.239.35:41215</item>
+					<item>101.226.249.3:41215</item>
+					<item>140.207.239.34:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0016" BrokerName="C财达期货" BrokerEName="caidaqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.168.173.35:51205</item>
+					<item>27.115.78.117:51205</item>
+				</Trading>
+				<MarketData>
+					<item>180.168.173.35:51213</item>
+					<item>27.115.78.117:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0320" BrokerName="C财信期货" BrokerEName="dsqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+                 <item>101.226.253.65:41305</item>
+                 <item>101.226.253.66:41305</item>
+					<item>218.76.45.153:41305</item>
+                    <item>218.76.45.154:41305</item>
+                    <item>218.76.45.155:41305</item>
+                     <item>218.76.45.156:41305</item>
+					 <item>140.207.226.129:41305</item>
+					<item>140.207.226.130:41305</item>
+				</Trading>
+				<MarketData>
+                 <item>101.226.253.65:41313</item>
+                 <item>101.226.253.66:41313</item>
+					<item>140.207.226.129:41313</item>
+					<item>140.207.226.130:41313</item>				 
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="888888" BrokerName="C长城期货" BrokerEName="jcqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.54.109:41207</item>
+					<item>114.80.54.110:41207</item>
+					<item>140.207.238.77:41207</item>
+					<item>140.207.238.78:41207</item>
+				</Trading>
+				<MarketData>
+					<item>114.80.54.109:41213</item>
+					<item>114.80.54.110:41213</item>
+					<item>140.207.238.77:41213</item>
+					<item>140.207.238.78:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	    <broker BrokerID="7070" BrokerName="D东航期货" BrokerEName="ces">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>116.236.239.140:42205</item>
+					<item>116.236.239.141:42205</item>
+					<item>116.236.239.136:42205</item>
+					<item>116.236.239.137:42205</item>
+					<item>101.230.192.177:42205</item>
+					<item>101.230.192.178:42205</item>
+					<item>112.64.143.150:42205</item>
+					<item>112.64.143.151:42205</item>
+				</Trading>
+				<MarketData>
+					<item>116.236.239.140:42213</item>
+					<item>116.236.239.141:42213</item>
+					<item>116.236.239.136:42213</item>
+					<item>116.236.239.137:42213</item>
+					<item>101.230.192.177:42213</item>
+					<item>101.230.192.178:42213</item>
+					<item>112.64.143.150:42213</item>
+					<item>112.64.143.151:42213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8899" BrokerName="D东兴期货" BrokerEName="dxqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>116.228.171.152:31205</item>
+					<item>116.228.171.154:31205</item>
+					<item>116.228.171.153:31205</item>
+					<item>116.228.171.156:31205</item>
+					<item>27.115.57.159:31205</item>
+					<item>211.95.26.148:31205</item>
+				</Trading>
+				<MarketData>
+					<item>116.228.171.152:31213</item>
+					<item>116.228.171.154:31213</item>
+					<item>116.228.171.153:31213</item>
+					<item>116.228.171.156:31213</item>
+					<item>27.115.57.159:31213</item>
+					<item>211.95.26.148:31213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="9099" BrokerName="D东方财富" BrokerEName="eastmoneyfutures">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.195.2:51205</item>
+					<item>112.64.183.129:51205</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.195.2:51213</item>
+					<item>112.64.183.129:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0177" BrokerName="D大地期货" BrokerEName="ddqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>124.74.246.67:41505</item>
+					<item>124.74.246.68:41505</item>
+					<item>211.144.194.211:41505</item>
+                    <item>211.144.194.212:41505</item>
+				</Trading>
+				<MarketData>
+					<item>124.74.246.67:41513</item>
+					<item>124.74.246.68:41513</item>
+					<item>211.144.194.211:41513</item>
+					<item>211.144.194.212:41513</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="4700" BrokerName="D东海期货" BrokerEName="dhqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+            <Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>tcp://61.132.99.125:41205</item>
+					<item>tcp://61.132.99.61:41205</item>
+					<item>tcp://122.195.77.89:41205</item>
+					<item>tcp://153.101.32.205:41205</item>
+				</Trading>
+				<MarketData>
+					<item>61.132.99.125:41213</item>
+					<item>61.132.99.61:41213</item>
+					<item>122.195.77.89:41213</item>
+					<item>153.101.32.205:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	    <broker BrokerID="4700" BrokerName="D东海期货" BrokerEName="dhqh">
+	    		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.225.204:41205</item>
+					<item>114.80.225.205:41205</item>
+					<item>140.207.239.76:41205</item>
+					<item>140.207.239.77:41205</item>
+				</Trading>
+				<MarketData>
+					<item>114.80.225.204:41213</item>
+					<item>114.80.225.205:41213</item>
+					<item>140.207.239.76:41213</item>
+					<item>140.207.239.77:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="4900" BrokerName="D东吴期货" BrokerEName="dwqh" ApiType="UFX">
+		<EntrustWay>E</EntrustWay>
+		<Servers>
+	        <Server>
+				<Name>恒生</Name>
+				<Trading>
+					<item>180.169.116.104:9020</item>
+					<item>180.169.116.104:9020</item>
+					<item>221.224.159.11:9020</item>
+					<item>221.224.159.11:9020</item>
+					<item>140.206.101.226:9020</item>
+					<item>140.206.101.226:9020</item>
+					<item>122.193.97.58:9020</item>
+					<item>122.193.97.58:9020</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.116.104:9020</item>
+					<item>180.169.116.104:9020</item>
+					<item>221.224.159.11:9020</item>
+					<item>221.224.159.11:9020</item>
+					<item>140.206.101.226:9020</item>
+					<item>140.206.101.226:9020</item>
+					<item>122.193.97.58:9020</item>
+					<item>122.193.97.58:9020</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="4900" BrokerName="D东吴期货" BrokerEName="dwqh">
+		<Servers>
+			<Server>
+				<Name>CTP</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.169.116.99:57205</item>
+					<item>180.169.116.100:57205</item>
+					<item>221.224.159.11:57205</item>
+					<item>140.206.101.228:57205</item>
+					<item>140.206.101.229:57205</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.116.99:57213</item>
+					<item>180.169.116.100:57213</item>
+					<item>221.224.159.11:57213</item>
+					<item>140.206.101.228:57213</item>
+					<item>140.206.101.229:57213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8888" BrokerName="D大陆期货" BrokerEName="dlqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.208.65:61205</item>
+					<item>101.230.208.66:61205</item>
+					<item>220.248.72.50:61205</item>
+					<item>220.248.72.51:61205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.208.65:62111</item>
+					<item>101.230.208.66:62111</item>
+					<item>220.248.72.50:62111</item>
+					<item>220.248.72.51:62111</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="9999" BrokerName="D大有期货" BrokerEName="dyqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>116.228.31.234:41207</item>
+					<item>116.228.31.235:41207</item>
+					<item>27.115.57.69:41207</item>
+					<item>27.115.57.70:41207</item>
+				</Trading>
+				<MarketData>
+					<item>116.228.31.234:41215</item>
+					<item>116.228.31.235:41215</item>
+					<item>27.115.57.69:41215</item>
+					<item>27.115.57.70:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0023" BrokerName="D大越期货" BrokerEName="dayueqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>电信</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>115.239.232.14:33437</item>
+					<item>221.12.113.87:33437</item>
+				</Trading>
+				<MarketData>
+					<item>115.239.232.14:33443</item>
+					<item>221.12.113.87:33443</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0001" BrokerName="D东方汇金" BrokerEName="dfhjqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>120.136.159.4:41305</item>
+					<item>211.144.207.20:41305</item>
+				</Trading>
+				<MarketData>
+					<item>120.136.159.4:41313</item>
+					<item>211.144.207.20:41313</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="0099" BrokerName="D东华期货" BrokerEName="dhfutures">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.202.173:31201</item>
+					<item>211.136.181.147:31201</item>
+					<item>58.247.63.229:31201</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.202.173:31203</item>
+					<item>211.136.181.147:31203</item>
+					<item>58.247.63.229:31203</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	 <broker BrokerID="0034" BrokerName="F方正中期" BrokerEName="fzzq">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.85.33:21405</item>
+					<item>101.230.85.34:21405</item>
+					<item>101.230.85.35:21405</item>
+					<item>101.230.85.36:21405</item>
+					<item>101.230.85.37:21405</item>
+					<item>101.230.85.38:21405</item>
+					<item>124.232.165.210:21405</item>
+					<item>124.232.165.211:21405</item>
+					<item>1.202.244.22:21405</item>
+					<item>1.202.244.23:21405</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.85.33:21413</item>
+					<item>101.230.85.34:21413</item>
+					<item>101.230.85.35:21413</item>
+					<item>101.230.85.36:21413</item>
+					<item>101.230.85.37:21413</item>
+					<item>101.230.85.38:21413</item>
+					<item>124.232.165.210:21413</item>
+					<item>124.232.165.211:21413</item>
+					<item>1.202.244.22:21413</item>
+					<item>1.202.244.23:21413</item>				
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="3989" BrokerName="F佛山金控" BrokerEName="xsqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.182.18:41305</item>
+					<item>140.206.103.218:41305</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.182.18:41309</item>
+					<item>140.206.103.218:41309</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0614" BrokerName="F福能期货" BrokerEName="jinyouqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>电信</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.104.193:61205</item>
+					<item>114.80.104.194:61205</item>
+					<item>114.80.104.195:61205</item>
+					<item>114.80.104.196:61205</item>
+					<item>140.207.238.33:61205</item>
+					<item>140.207.238.34:61205</item>
+					<item>140.207.238.35:61205</item>
+					<item>140.207.238.36:61205</item>
+				</Trading>
+				<MarketData>
+					<item>114.80.104.193:61213</item>
+					<item>114.80.104.194:61213</item>
+					<item>114.80.104.195:61213</item>
+					<item>114.80.104.196:61213</item>
+					<item>140.207.238.33:61213</item>
+					<item>140.207.238.34:61213</item>
+					<item>140.207.238.35:61213</item>
+					<item>140.207.238.36:61213</item>					
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0233" BrokerName="G港信期货" BrokerEName="sdgxqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>140.207.228.9:41205</item>
+					<item>140.207.228.10:41205</item>
+					<item>101.226.254.129:41205</item>
+					<item>101.226.254.130:41205</item>
+				</Trading>
+				<MarketData>
+					<item>140.207.228.9:41213</item>
+					<item>140.207.228.10:41213</item>
+					<item>101.226.254.129:41213</item>
+					<item>101.226.254.130:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="9000" BrokerName="G广发期货" BrokerEName="gfqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.102.231:51205</item>
+					<item>101.230.102.232:51205</item>
+					<item>101.230.102.233:51205</item>
+					<item>101.230.102.234:51205</item>
+					<item>101.230.102.235:51205</item>
+					<item>101.230.102.236:51205</item>
+					<item>101.230.102.237:51205</item>
+					<item>58.247.136.164:51205</item>
+					<item>58.247.136.165:51205</item>
+					<item>58.247.136.166:51205</item>
+					<item>58.247.136.167:51205</item>
+					<item>58.247.136.168:51205</item>
+					<item>58.247.75.151:51205</item>
+					<item>58.247.75.152:51205</item>
+					<item>58.247.75.153:51205</item>
+					<item>58.247.75.154:51205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.102.231:51213</item>
+					<item>101.230.102.232:51213</item>
+					<item>101.230.102.233:51213</item>
+					<item>101.230.102.234:51213</item>
+					<item>101.230.102.235:51213</item>
+					<item>101.230.102.236:51213</item>
+					<item>101.230.102.237:51213</item>
+					<item>58.247.136.164:51213</item>
+					<item>58.247.136.165:51213</item>
+					<item>58.247.136.166:51213</item>
+					<item>58.247.136.167:51213</item>
+					<item>58.247.136.168:51213</item>
+					<item>58.247.75.151:51213</item>
+					<item>58.247.75.152:51213</item>
+					<item>58.247.75.153:51213</item>
+					<item>58.247.75.154:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="3003" BrokerName="G广金期货" BrokerEName="gzjkqh">
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.54.236:41205</item>
+					<item>114.80.54.237:41205</item>
+					<item>114.80.54.238:41205</item>
+					<item>140.207.238.108:41205</item>
+					<item>140.207.238.109:41205</item>
+					<item>140.207.238.110:41205</item>
+				</Trading>
+				<MarketData>
+					<item>114.80.54.236:41213</item>
+					<item>114.80.54.237:41213</item>
+					<item>114.80.54.238:41213</item>
+					<item>140.207.238.108:41213</item>
+					<item>140.207.238.109:41213</item>
+					<item>140.207.238.110:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>	
+	<broker BrokerID="6000" BrokerName="G光大期货" BrokerEName="gdqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.231.162.58:41205</item>
+					<item>101.231.162.59:41205</item>
+					<item>180.166.132.67:41205</item>
+					<item>180.166.132.68:41205</item>
+					<item>180.166.132.72:41205</item>
+					<item>101.230.146.25:41205</item>
+					<item>101.230.146.26:41205</item>
+				</Trading>
+				<MarketData>
+					<item>101.231.162.58:41213</item>
+					<item>101.231.162.59:41213</item>
+					<item>180.166.132.67:41213</item>
+					<item>180.166.132.68:41213</item>
+					<item>180.166.132.72:41213</item>
+					<item>101.230.146.25:41213</item>
+					<item>101.230.146.26:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	
+	<broker BrokerID="0127" BrokerName="G国能东方" BrokerEName="dfqh">	
+		<Servers>
+		<Server>
+		     <Name>主席</Name>
+			 <Se>1</Se>
+			 <New>1</New>
+			 <Trading>
+					<item>101.230.3.50:21000</item>
+				    <item>140.207.226.150:21000</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.3.50:22000</item>
+					<item>140.207.226.150:22000</item>
+				</MarketData>
+		</Server>
+		</Servers>
+	</broker>
+	
+		<broker BrokerID="1010" BrokerName="G国新国证" BrokerEName="chinahrqh">
+		<Servers>
+			<Server>
+			<Name>主席</Name>
+			<Se>1</Se>
+			<New>1</New>
+			<Trading>
+		          <item>101.226.250.171:31205</item>
+                 <item>101.226.250.171:31305</item>
+                  <item>114.94.10.244:31305</item>
+                  <item>220.174.208.248:31205</item>
+				  <item>140.206.241.107:31205</item>
+                  <item>140.206.241.107:31305</item>
+                  <item>140.207.50.100:31305</item>
+                  <item>113.59.102.230:31205</item>
+		    </Trading>
+				<MarketData>
+					<item>101.226.250.171:31213</item>
+                    <item>101.226.250.171:31313</item>
+                    <item>114.94.10.244:31313</item>
+                    <item>220.174.208.248:31213</item>
+					<item>140.206.241.107:31213</item>
+                  <item>140.206.241.107:31313</item>
+                  <item>140.207.50.100:31313</item>
+                 <item>113.59.102.230:31213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>	
+	<broker BrokerID="8090" BrokerName="G国际期货" BrokerEName="cifco">
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<IsOldRiskAlg>1</IsOldRiskAlg>
+		<Servers>
+			<Server>
+			    <Name>主席</Name>
+				 <Se>1</Se>
+				 <New>1</New>
+				<Trading>
+					<item>180.168.102.193:41206</item>
+					<item>180.168.102.194:41206</item>
+					<item>180.168.102.195:41206</item>
+					<item>180.168.102.196:41206</item>
+					<item>180.168.102.198:41206</item>
+					<item>180.168.102.199:41206</item>
+					<item>61.144.241.113:41206</item>
+					<item>61.144.241.114:41206</item>
+					<item>61.144.241.115:41206</item>
+				</Trading>
+				<MarketData>
+					<item>180.168.102.193:41214</item>
+					<item>180.168.102.194:41214</item>
+					<item>180.168.102.195:41214</item>
+					<item>180.168.102.196:41214</item>
+					<item>180.168.102.198:41214</item>
+					<item>180.168.102.199:41214</item>
+					<item>61.144.241.113:41214</item>
+					<item>61.144.241.114:41214</item>
+					<item>61.144.241.115:41214</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="4500" BrokerName="G国投安信" BrokerEName="sdic">
+		<Servers>
+			<Server>
+				<Name>电信</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.76.121:41305</item>
+					<item>114.94.76.122:41305</item>
+					<item>114.94.76.123:41305</item>
+					<item>114.94.76.124:41305</item>
+					<item>114.94.76.125:41305</item>
+					<item>117.131.66.66:41305</item>
+					<item>180.166.45.116:41305</item>
+					<item>101.230.64.137:41305</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.76.121:41313</item>
+					<item>114.94.76.122:41313</item>
+					<item>114.94.76.123:41313</item>
+					<item>114.94.76.124:41313</item>
+					<item>114.94.76.125:41313</item>
+					<item>117.131.66.66:41313</item>
+					<item>180.166.45.116:41313</item>
+					<item>101.230.64.137:41313</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>联通</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>140.206.158.11:41305</item>
+					<item>140.206.158.12:41305</item>
+					<item>140.206.158.13:41305</item>
+					<item>140.206.158.14:41305</item>
+					<item>140.206.158.15:41305</item>
+					<item>117.131.66.68:41305</item>
+					<item>140.206.101.52:41305</item>
+					<item>211.95.27.233:41305</item>
+				</Trading>
+				<MarketData>
+					<item>140.206.158.11:41313</item>
+					<item>140.206.158.12:41313</item>
+					<item>140.206.158.13:41313</item>
+					<item>140.206.158.14:41313</item>
+					<item>140.206.158.15:41313</item>
+					<item>117.131.66.68:41313</item>
+					<item>140.206.101.52:41313</item>
+					<item>211.95.27.233:41313</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+    <broker BrokerID="2016" BrokerName="G国富期货" BrokerEName="gffcc">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>	
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>		
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.178.177:53305</item>
+					<item>101.230.178.178:53305</item>
+					<item>101.230.178.179:53305</item>
+					<item>101.230.178.180:53305</item>
+					<item>101.230.178.181:53305</item>
+					<item>101.230.178.182:53305</item>
+					<item>112.64.141.101:53305</item>
+					<item>112.64.141.102:53305</item>
+					<item>112.64.141.103:53305</item>
+					<item>112.64.141.104:53305</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.178.177:53313</item>
+					<item>101.230.178.178:53313</item>
+					<item>101.230.178.179:53313</item>
+					<item>101.230.178.180:53313</item>
+					<item>101.230.178.181:53313</item>
+					<item>101.230.178.182:53313</item>	
+					<item>112.64.141.101:53313</item>
+					<item>112.64.141.102:53313</item>
+					<item>112.64.141.103:53313</item>
+					<item>112.64.141.104:53313</item>					
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="5010" BrokerName="G国金期货" BrokerEName="gjqh">	
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>116.228.52.242:11207</item> 
+					<item>180.169.68.3:11207</item>
+					<item>shdx-ctp1.gjqh.com.cn:11207</item>
+				    <item>182.140.218.33:11207</item> 
+					<item>140.206.41.67:11207</item> 
+					<item>shlt-ctp1.gjqh.com.cn:11207</item>
+					<item>119.6.88.66:11207</item>					
+				</Trading>
+				<MarketData>
+					<item>116.228.52.242:11215</item> 
+					<item>180.169.68.3:11215</item>
+					<item>shdx-ctp1.gjqh.com.cn:11215</item>
+					<item>182.140.218.33:11215</item>
+					<item>140.206.41.67:11215</item>
+                    <item>shlt-ctp1.gjqh.com.cn:11215</item>	
+					<item>119.6.88.66:11215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0187" BrokerName="G国贸期货" BrokerEName="itf">     
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>	
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>		
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.225.10:41205</item>
+					<item>114.80.225.2:41205</item>
+					<item>140.206.244.67:41205</item>
+					<item>140.206.244.75:41205</item>
+					<item>117.25.177.162:46205</item>
+					<item>210.13.212.136:46205</item>  
+				</Trading>
+				<MarketData>
+					<item>114.80.225.10:41213</item>
+					<item>114.80.225.2:41213</item>
+					<item>140.206.244.67:41213</item>
+					<item>140.206.244.75:41213</item>
+					<item>117.25.177.162:46214</item>
+					<item>110.87.99.3:46213</item>
+				</MarketData>
+              </Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8030" BrokerName="G国信CTP" BrokerEName="guosenqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.37.142:43205</item>
+					<item>202.105.198.251:43205</item>
+					<item>119.145.39.75:43205</item>
+					<item>123.160.252.82:43205</item>
+					<item>140.206.101.204:43205</item>
+					<item>218.104.184.233:43205</item>
+					<item>58.251.76.75:43205</item>
+					<item>218.28.195.133:43205</item>
+				</Trading>	
+				<MarketData>
+					<item>180.166.37.142:43213</item>
+					<item>202.105.198.251:43213</item>
+					<item>119.145.39.75:43213</item>
+					<item>123.160.252.82:43213</item>
+					<item>140.206.101.204:43213</item>
+					<item>218.104.184.233:43213</item>
+					<item>58.251.76.75:43213</item>
+					<item>218.28.195.133:43213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="7090" BrokerName="G国泰君安" BrokerEName="gtjaqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>140.206.102.73:61205</item>
+					<item>140.206.102.72:61205</item>
+					<item>140.206.102.65:61205</item>
+					<item>140.206.102.77:61205</item>
+					<item>180.166.83.85:61205</item>
+					<item>180.166.83.67:61205</item>
+					<item>180.166.83.74:61205</item>
+					<item>180.166.83.75:61205</item>
+					<item>180.166.83.72:61205</item>
+					<item>140.206.102.73:61205</item>
+					<item>140.206.103.115:61205</item>
+					<item>140.206.103.116:61205</item>
+					<item>140.206.102.78:61205</item>
+					<item>180.166.176.210:61205</item>
+					<item>180.166.176.211:61205</item>
+					<item>211.136.187.66:61205</item>
+					<item>211.136.187.67:61205</item>
+					<item>220.243.132.116:51205</item> 
+					<item>220.243.132.116:61205</item>
+					<item>59.36.20.120:61205</item>
+					<item>59.36.20.121:61205</item>
+					<item>218.88.34.121:61205</item>
+				</Trading>
+				<MarketData>
+					<item>140.206.102.73:61213</item>				
+					<item>140.206.102.72:61213</item>
+					<item>140.206.102.65:61213</item>
+					<item>140.206.102.77:61213</item>
+					<item>180.166.83.85:61213</item>	
+					<item>180.166.83.67:61213</item>
+					<item>180.166.83.74:61213</item>
+					<item>180.166.83.75:61213</item>
+					<item>180.166.83.72:61213</item>
+					<item>140.206.102.73:61213</item>
+					<item>140.206.103.115:61213</item>
+					<item>140.206.103.116:61213</item>
+					<item>180.166.176.210:61213</item>
+					<item>180.166.176.211:61213</item>
+					<item>211.136.187.66:61213</item>
+					<item>211.136.187.67:61213</item>
+					<item>220.243.132.116:51213</item>
+					<item>220.243.132.116:61213</item>
+					<item>59.36.20.120:61213</item>
+					<item>59.36.20.121:61213</item>
+					<item>218.88.34.121:61213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="190228" BrokerName="G国盛期货" BrokerEName="guoshengqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.254.16:61205</item>
+					<item>101.226.254.17:61205</item>
+					<item>101.226.254.18:61205</item>
+					<item>101.226.254.19:61205</item>
+					<item>140.206.244.224:61205</item>
+					<item>140.206.244.225:61205</item>
+					<item>140.206.244.226:61205</item>
+					<item>140.206.244.227:61205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.254.16:61213</item>
+					<item>101.226.254.17:61213</item>
+					<item>101.226.254.18:61213</item>
+					<item>101.226.254.19:61213</item>
+					<item>140.206.244.224:61213</item>
+					<item>140.206.244.225:61213</item>
+					<item>140.206.244.226:61213</item>
+					<item>140.206.244.227:61213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>	
+	<broker BrokerID="0001" BrokerName="G广州期货" BrokerEName="gzf" ApiType="UFX">
+		<EntrustWay>p</EntrustWay>
+		<Servers>
+			<Server>
+				<Name>恒生</Name>
+				<Trading>
+					<item>58.62.16.141:9020</item>
+					<item>58.62.16.141:9020</item>
+					<item>58.62.16.147:9020</item>
+					<item>58.62.16.147:9020</item>
+					<item>58.33.212.105:9020</item>
+					<item>58.33.212.105:9020</item>
+					<item>58.248.137.215:9020</item>
+					<item>58.248.137.215:9020</item>
+					<item>58.248.137.190:9020</item>
+					<item>58.248.137.190:9020</item>
+					<item>58.246.51.27:9020</item>
+					<item>58.246.51.27:9020</item>
+				</Trading>
+				<MarketData>
+					<item>58.62.16.141:9020</item>
+					<item>58.62.16.141:9020</item>
+					<item>58.62.16.147:9020</item>
+					<item>58.62.16.147:9020</item>
+					<item>58.33.212.105:9020</item>
+					<item>58.33.212.105:9020</item>
+					<item>58.248.137.215:9020</item>
+					<item>58.248.137.215:9020</item>
+					<item>58.248.137.190:9020</item>
+					<item>58.248.137.190:9020</item>
+					<item>58.246.51.27:9020</item>
+					<item>58.246.51.27:9020</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="5070" BrokerName="G广州期货" BrokerEName="gzf">
+		<Servers>
+			<Server>
+				<Name>CTP</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.80.97:41206</item>
+					<item>112.64.129.202:41206</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.80.97:41214</item>
+					<item>112.64.129.202:41214</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="9050" BrokerName="G国都期货" BrokerEName="guodu">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.45.98:41208</item>
+                    <item>140.206.102.218:41208</item> 					
+				</Trading>
+				<MarketData>
+					<item>180.166.45.98:41216</item> 
+					<item>140.206.102.218:41216</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	
+	<broker BrokerID="0000" BrokerName="G格林大华" BrokerEName="gldhqh" ApiType="UFX">
+		<EntrustWay>c</EntrustWay>
+		<Servers>
+			<Server>
+				<Name>恒生</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.255.164:9020</item>
+					<item>101.226.255.164:9020</item>
+					<item>59.49.101.253:9020</item>
+					<item>59.49.101.253:9020</item>
+					<item>140.207.230.52:9020</item>
+					<item>140.207.230.52:9020</item>
+					<item>202.99.195.154:9020</item>
+					<item>202.99.195.154:9020</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.255.164:9020</item>
+					<item>101.226.255.164:9020</item>
+					<item>59.49.101.253:9020</item>
+					<item>59.49.101.253:9020</item>
+					<item>140.207.230.52:9020</item>
+					<item>140.207.230.52:9020</item>
+					<item>202.99.195.154:9020</item>
+					<item>202.99.195.154:9020</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="6080" BrokerName="G格林大华" BrokerEName="gldhqh">
+		<Servers>
+            <Server>
+				<Name>CTP</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>140.206.129.103:41205</item>
+					<item>140.206.129.110:51205</item>
+					<item>180.169.99.43:41205</item>
+					<item>180.169.99.50:51205</item>
+				</Trading>
+				<MarketData>
+					<item>140.206.129.103:41213</item>
+					<item>140.206.129.110:51213</item>
+					<item>180.169.99.43:41213</item>
+					<item>180.169.99.50:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0029" BrokerName="G国海良时期货" BrokerEName="ghlsqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		
+        <IsOldRiskAlg>0</IsOldRiskAlg>
+　    　			
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+                <Trading>
+					<item>122.224.175.87:41207</item>
+					<item>61.164.47.71:41207</item>
+					<item>60.12.232.54:41207</item>
+					<item>39.170.87.21:41207</item>
+				</Trading>
+				<MarketData>
+					<item>122.224.175.87:41215</item>
+					<item>61.164.47.71:41215</item>
+					<item>60.12.232.54:41215</item>
+					<item>39.170.87.21:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="7010" BrokerName="G国联期货" BrokerEName="glqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.50.193:57205</item>
+					<item>180.166.50.194:57205</item>
+					<item>140.206.101.235:57205</item>
+					<item>140.206.101.236:57205</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.50.193:57213</item>
+					<item>180.166.50.194:57213</item>
+					<item>140.206.101.235:57213</item>
+					<item>140.206.101.236:57213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="7010" BrokerName="G国联期货" BrokerEName="glqh"> 
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>58.215.212.146:41205</item>
+					<item>58.215.212.147:41205</item>
+					<item>58.215.212.164:41205</item>
+					<item>58.215.212.165:41205</item>
+					<item>58.215.42.172:51205</item>
+					<item>58.215.42.173:51205</item> 
+					<item>171.8.2.164:51205</item>
+					<item>171.8.2.165:51205</item> 	
+					<item>221.6.106.98:41205</item>
+					<item>221.6.106.99:41205</item>
+					<item>221.6.106.100:41205</item>
+					<item>221.6.106.101:41205</item>
+					<item>58.241.26.203:51205</item>
+					<item>58.241.26.204:51205</item>
+					<item>218.29.141.250:51205</item>
+					<item>218.29.141.251:51205</item>
+					<item>120.195.154.31:41205</item>
+					<item>120.195.154.32:41205</item>
+					<item>120.195.154.33:41205</item>
+				</Trading>
+				<MarketData>
+					<item>58.215.212.146:41213</item>
+					<item>58.215.212.147:41213</item>
+					<item>58.215.212.164:41213</item>
+					<item>58.215.212.165:41213</item>
+					<item>58.215.42.172:51213</item>
+					<item>58.215.42.173:51213</item>     
+					<item>171.8.2.164:51213</item>
+					<item>171.8.2.165:51213</item>
+					<item>221.6.106.98:41213</item>
+					<item>221.6.106.99:41213</item>
+					<item>221.6.106.100:41213</item>
+					<item>221.6.106.101:41213</item>
+					<item>58.241.26.203:51213</item>
+					<item>58.241.26.204:51213</item>  
+					<item>218.29.141.250:51213</item>
+					<item>218.29.141.251:51213</item>
+					<item>120.195.154.31:41213</item>
+					<item>120.195.154.32:41213</item>
+					<item>120.195.154.33:41213</item>
+				</MarketData>
+		    </Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0043" BrokerName="G国元期货" BrokerEName="guoyuanqh">	
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+                <Trading>
+					<item>114.94.16.137:41205</item>
+					<item>114.94.16.138:41205</item>
+					<item>114.94.16.140:41205</item>
+					<item>114.94.16.141:41205</item>
+					<item>140.206.68.163:41205</item>
+					<item>140.206.68.164:41205</item>
+					<item>117.185.2.3:41205</item>
+					<item>117.185.2.4:41205</item>
+					<item>36.7.74.73:41205</item>
+					<item>220.248.224.11:41205</item>
+				</Trading>	
+				<MarketData>
+					<item>114.94.16.137:41213</item>
+					<item>114.94.16.138:41213</item>
+					<item>114.94.16.140:41213</item>
+					<item>114.94.16.141:41213</item>
+					<item>140.206.68.163:41213</item>
+					<item>140.206.68.164:41213</item>
+					<item>117.185.2.3:41213</item>
+					<item>117.185.2.4:41213</item>
+					<item>36.7.74.73:41213</item>
+					<item>220.248.224.11:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0037" BrokerName="G冠通期货" BrokerEName="gtqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.251.192.37:41205</item>
+			        <item>114.251.192.195:41205</item>
+					<item>1.202.151.5:41205</item>
+			        <item>1.202.151.35:41205</item>
+				</Trading>	
+				<MarketData>
+					<item>114.251.192.37:41213</item>
+			        <item>114.251.192.195:41213</item>
+					<item>1.202.151.5:41213</item>
+			        <item>1.202.151.35:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.231.208.152:41208</item>
+					<item>180.166.134.102:41208</item>
+					<item>112.64.149.72:41208</item>
+					<item>140.206.103.92:41208</item>
+				</Trading>	
+				<MarketData>
+					<item>101.231.208.152:41215</item>
+					<item>180.166.134.102:41215</item>
+					<item>112.64.149.72:41215</item>
+					<item>140.206.103.92:41215</item>
+				</MarketData>
+			</Server>
+			
+		</Servers>
+	</broker>
+	<broker BrokerID="5300" BrokerName="H华宝期货" BrokerEName="zgfcc">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.58.211:41255</item>
+					<item>140.206.102.211:41255</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.58.211:41253</item>
+					<item>140.206.102.211:41253</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8080" BrokerName="H华泰期货" BrokerEName="htqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.12.97:41206</item>
+					<item>114.94.12.98:41206</item>
+					<item>114.94.12.99:41206</item>
+					<item>114.94.12.100:41206</item>
+					<item>117.185.14.163:41206</item>
+					<item>117.185.14.164:41206</item>
+					<item>117.185.14.165:41206</item>
+					<item>117.185.14.166:41206</item>
+					<item>59.36.3.99:41206</item>
+					<item>59.36.3.100:41206</item>
+					<item>sq-front1.htgwf.net:41206</item>
+					<item>116.239.24.115:41206</item>
+					<item>220.196.208.129:41206</item>
+					<item>220.196.208.130:41206</item>
+					<item>220.196.208.131:41206</item>
+					<item>220.196.208.132:41206</item>
+					<item>220.196.208.133:41206</item>
+					<item>120.86.122.66:41206</item>
+					<item>120.86.122.67:41206</item>
+					<item>sq-front3.htgwf.net:41206</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.12.97:41214</item>
+					<item>114.94.12.98:41214</item>
+					<item>114.94.12.99:41214</item>
+					<item>114.94.12.100:41214</item>
+					<item>117.185.14.163:41214</item>
+					<item>117.185.14.164:41214</item>
+					<item>117.185.14.165:41214</item>
+					<item>117.185.14.166:41214</item>
+					<item>59.36.3.99:41214</item>
+					<item>59.36.3.100:41214</item>
+					<item>sq-md1.htgwf.net:41214</item>
+					<item>116.239.24.115:41214</item>
+					<item>220.196.208.129:41214</item>
+					<item>220.196.208.130:41214</item>
+					<item>220.196.208.131:41214</item>
+					<item>220.196.208.132:41214</item>
+					<item>220.196.208.133:41214</item>
+					<item>120.86.122.66:41214</item>
+					<item>120.86.122.67:41214</item>
+					<item>sq-md3.htgwf.net:41214</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0118" BrokerName="H华源期货" BrokerEName="jzqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+                    <item>117.185.37.82:41208</item>
+					<item>117.185.37.84:41208</item>
+					<item>101.230.67.82:41208</item>
+					<item>101.230.67.83:41208</item>
+				</Trading>
+				<MarketData>
+					<item>117.185.37.82:41218</item>
+					<item>117.185.37.84:41218</item>
+					<item>101.230.67.82:41218</item>
+					<item>101.230.67.83:41218</item>
+                </MarketData>
+			</Server>
+       </Servers>
+    </broker>
+    <broker BrokerID="8000" BrokerName="H海通期货" BrokerEName="htfutures">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+                     <item>180.168.212.75:41305</item>
+					 <item>27.115.78.155:41305</item>
+				</Trading>
+				<MarketData>
+					<item>180.168.212.75:41313</item>
+					<item>27.115.78.155:41313</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8000" BrokerName="H海通期货" BrokerEName="htfutures">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>11席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+                     <item>180.168.212.70:41305</item>
+					 <item>210.5.151.248:41305</item>
+				</Trading>
+				<MarketData>
+					<item>180.168.212.70:41313</item>
+					<item>210.5.151.248:41313</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+     <broker BrokerID="9040" BrokerName="H海证期货" BrokerEName="hzqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按前结算计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>Ctpjqdx1.hicend.com:41207</item>
+					<item>Ctpjqdx2.hicend.com:41207</item>
+					<item>Ctpjqlt1.hicend.com:41207</item>
+					<item>Ctpjqlt2.hicend.com:41207</item>
+				</Trading>
+				<MarketData>
+					<item>Ctpjqdx1.hicend.com:41215</item>
+					<item>Ctpjqdx2.hicend.com:41215</item>
+					<item>Ctpjqlt1.hicend.com:41215</item>
+					<item>Ctpjqlt2.hicend.com:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>		
+	<broker BrokerID="1080" BrokerName="H宏源期货" BrokerEName="hongyuanqh">
+		<Servers>
+			<Server>
+			<Name>主席</Name>
+			<Se>1</Se>
+			<New>1</New>
+		    <Trading>
+					<item>180.169.112.52:42205</item>
+					<item>180.169.112.53:42205</item>
+					<item>180.169.112.54:42205</item>
+					<item>180.169.112.55:42205</item>
+					<item>180.169.112.56:42205</item>
+					<item>180.169.112.57:42205</item>
+					<item>106.37.231.6:42205</item>
+					<item>106.37.231.7:42205</item>
+					<item>140.207.168.11:42205</item>
+					<item>140.207.168.12:42205</item>
+			</Trading>
+			<MarketData>
+					<item>180.169.112.52:42213</item>
+					<item>180.169.112.53:42213</item>
+					<item>180.169.112.54:42213</item>
+					<item>180.169.112.55:42213</item>
+					<item>180.169.112.56:42213</item>
+					<item>180.169.112.57:42213</item>
+					<item>106.37.231.6:42213</item>
+					<item>106.37.231.7:42213</item>
+					<item>140.207.168.11:42213</item>
+					<item>140.207.168.12:42213</item>
+			</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="3678" BrokerName="H弘业期货" BrokerEName="ftol">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.118.177:49205</item>
+					<item>101.230.118.178:49205</item>
+					<item>101.230.118.179:49205</item>
+					<item>101.230.118.180:49205</item>	
+					<item>140.207.156.181:49205</item>				
+					<item>140.207.156.182:49205</item>				
+					<item>140.207.156.183:49205</item>				
+					<item>140.207.156.184:49205</item>	
+					<item>117.184.123.28:49205</item>				
+					<item>117.184.123.29:49205</item>				
+				</Trading>
+				<MarketData>
+					<item>101.230.118.177:49213</item>
+					<item>101.230.118.178:49213</item>
+					<item>101.230.118.179:49213</item>
+					<item>101.230.118.180:49213</item>
+					<item>140.207.156.181:49213</item>
+					<item>140.207.156.182:49213</item>
+					<item>140.207.156.183:49213</item>
+					<item>140.207.156.184:49213</item>
+					<item>117.184.123.28:49213</item>
+					<item>117.184.123.29:49213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="16333" BrokerName="H华西期货" BrokerEName="huaxiqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<IsDiscountToCZCEHedging>1</IsDiscountToCZCEHedging>
+			
+	
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>ctp1-trade-isp1.hxqh168.com:41121</item>
+					<item>ctp1-trade-isp2.hxqh168.cn:41121</item>
+					<item>182.131.17.103:41121</item>
+					<item>ctp1-trade-zb.hxqh168.com:41121</item>
+				</Trading>
+				<MarketData>
+					<item>ctp1-md-isp1.hxqh168.com:41168</item>
+					<item>ctp1-md-isp2.hxqh168.cn:41168</item>
+					<item>182.131.17.103:41168</item>
+					<item>ctp1-md-zb.hxqh168.com:41168</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0038" BrokerName="H混沌天成" BrokerEName="chaosqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按前结算计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>ctp1-front1.chaosqh.com:6901</item>
+					<item>ctp1-front1.chaosqh.com:6901</item>
+					<item>ctp1-front2.chaosqh.com:6901</item>
+					<item>ctp1-front2.chaosqh.com:6901</item>
+					<item>ctp2-front1.chaosqh.com:6901</item>
+					<item>ctp2-front1.chaosqh.com:6901</item>
+					<item>ctp2-front2.chaosqh.com:6901</item>
+					<item>ctp2-front2.chaosqh.com:6901</item>
+				</Trading>
+				<Bank>
+					<item>ctp1-front1.chaosqh.com:6901</item>
+					<item>ctp1-front1.chaosqh.com:6901</item>
+					<item>ctp1-front2.chaosqh.com:6901</item>
+					<item>ctp1-front2.chaosqh.com:6901</item>
+					<item>ctp2-front1.chaosqh.com:6901</item>
+					<item>ctp2-front1.chaosqh.com:6901</item>
+					<item>ctp2-front2.chaosqh.com:6901</item>
+					<item>ctp2-front2.chaosqh.com:6901</item>
+				</Bank>
+				<MarketData>
+					<item>ctp1-md1.chaosqh.com:5901</item>
+					<item>ctp1-md1.chaosqh.com:5901</item>
+					<item>ctp1-md2.chaosqh.com:5901</item>
+					<item>ctp1-md2.chaosqh.com:5901</item>
+					<item>ctp2-md1.chaosqh.com:5901</item>
+				    <item>ctp2-md1.chaosqh.com:5901</item>
+				    <item>ctp2-md2.chaosqh.com:5901</item>
+				    <item>ctp2-md2.chaosqh.com:5901</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	
+	<broker BrokerID="01027" BrokerName="H和合期货" BrokerEName="hhqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>140.206.241.131:35205</item>
+					<item>140.206.241.132:35205</item>
+				    <item>101.226.250.3:35205</item>
+					<item>101.226.250.4:35205</item>					
+                </Trading>
+                <MarketData>
+				    <item>140.206.241.131:35213</item>
+					<item>140.206.241.132:35213</item>
+					<item>101.226.250.3:35213</item>
+					<item>101.226.250.4:35213</item>
+                </MarketData>
+	        </Server>
+		</Servers>
+	</broker>
+
+	<broker BrokerID="10001" BrokerName="H华鑫期货" BrokerEName="cffc">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		
+        <IsOldRiskAlg>0</IsOldRiskAlg>
+　    　		
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.169.70.181:31205</item>
+					<item>180.169.70.182:31205</item>
+					<item>180.169.70.183:31205</item>
+					<item>180.169.70.184:31205</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.70.181:31213</item>
+					<item>180.169.70.182:31213</item>
+					<item>180.169.70.183:31213</item>
+					<item>180.169.70.184:31213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="6020" BrokerName="H华安期货" BrokerEName="haqh">
+		<Servers>
+			<Server>
+				<Name>一套</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.37.178:41207</item>
+					<item>180.166.37.180:41207</item>
+					<item>180.166.37.182:41207</item>
+					<item>140.206.101.218:41207</item>
+					<item>140.206.101.220:41207</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.37.178:41215</item>
+					<item>180.166.37.180:41215</item>
+					<item>180.166.37.182:41215</item>
+					<item>140.206.101.218:41215</item>
+					<item>140.206.101.220:41215</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>二套</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.54.218:41205</item>
+					<item>114.80.54.219:41205</item>
+					<item>140.207.230.114:41205</item>
+					<item>140.207.230.115:41205</item>
+					<item>47.100.242.46:41205</item>
+					<item>14.23.101.202:41205</item>
+					<item>157.122.227.230:41205</item>
+					<item>1.199.85.66:41205</item>
+					<item>61.163.237.251:41205</item>
+				</Trading>
+				<MarketData>
+					<item>114.80.54.218:41213</item>
+					<item>114.80.54.219:41213</item>
+					<item>140.207.230.114:41213</item>
+					<item>140.207.230.115:41213</item>
+					<item>47.100.242.46:41213</item>
+					<item>14.23.101.202:41213</item>
+					<item>157.122.227.230:41213</item>
+					<item>1.199.85.66:41213</item>
+					<item>61.163.237.251:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	
+	<broker BrokerID="0339" BrokerName="H恒力期货" BrokerEName="hengliqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>tcp://101.226.255.139:41205</item>
+					<item>tcp://101.226.255.140:41205</item>
+					<item>tcp://211.95.60.179:41205</item>
+					<item>tcp://211.95.60.180:41205</item>
+				</Trading>
+				<MarketData>
+					<item>tcp://101.226.255.139:41213</item>
+					<item>tcp://101.226.255.140:41213</item>
+					<item>tcp://211.95.60.179:41213</item>
+					<item>tcp://211.95.60.180:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="3010" BrokerName="H恒泰期货" BrokerEName="cnhtqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按最新价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.55.177:41207</item>
+					<item>114.80.55.178:41207</item>
+					<item>114.80.55.179:41207</item>
+					<item>114.80.55.180:41207</item>
+				</Trading>
+				<MarketData>
+					<item>114.80.55.177:41215</item>
+					<item>114.80.55.178:41215</item>
+					<item>114.80.55.179:41215</item>
+					<item>114.80.55.180:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0201" BrokerName="H红塔期货" BrokerEName="hongtaqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.28.129:41305</item>
+					<item>114.94.28.130:41305</item>
+					<item>140.207.13.161:41305</item>
+					<item>140.207.13.162:41305</item>
+					<item>117.185.2.114:41305</item>
+					<item>117.185.2.115:41305</item>
+				</Trading>
+				<MarketData>					
+					<item>114.94.28.129:41313</item>
+					<item>114.94.28.130:41313</item>
+					<item>140.207.13.161:41313</item>
+					<item>140.207.13.162:41313</item>
+					<item>117.185.2.114:41313</item>
+					<item>117.185.2.115:41313</item>
+				</MarketData>
+			</Server>
+        </Servers>
+	</broker>
+	<broker BrokerID="2013" BrokerName="H海航东银" BrokerEName="hhqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+                <Trading>
+					<item>101.230.127.41:41207</item>
+					<item>27.115.28.241:41207</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.127.41:41215</item>
+					<item>27.115.28.241:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8888" BrokerName="H华闻期货" BrokerEName="hwqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.254.1:41207</item>
+					<item>140.206.242.216:41207</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.254.1:41215</item>
+					<item>140.206.242.216:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8888" BrokerName="H徽商期货" BrokerEName="hsqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>223.247.96.71:41305</item>
+					<item>223.247.96.72:41305</item>
+					<item>218.106.80.200:41305</item>
+					<item>218.106.80.200:41325</item>
+					<item>180.153.245.51:41305</item>
+					<item>180.153.245.52:41305</item>
+					<item>140.207.239.181:41305</item>
+					<item>140.207.239.182:41305</item>
+				</Trading>	
+				<MarketData>
+				    <item>223.247.96.71:41343 </item>
+					<item>223.247.96.72:41343 </item>
+					<item>218.106.80.200:41313</item>
+					<item>218.106.80.200:41323</item>
+					<item>180.153.245.51:41343</item>
+					<item>180.153.245.52:41343</item>
+					<item>140.207.239.181:41343</item>
+					<item>140.207.239.182:41343</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>ctp1</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.153.245.51:43206</item>
+					<item>180.153.245.52:43206</item>
+					<item>101.230.166.9:43206</item>
+					<item>140.207.239.177:43206</item>
+					<item>140.207.239.178:43206</item>
+					<item>58.247.75.39:43206</item>
+				</Trading>	
+				<MarketData>
+				    <item>180.153.245.51:43174</item>
+				    <item>180.153.245.52:43174</item>
+				    <item>101.230.166.9:43174</item>
+				    <item>140.207.239.177:43174</item>
+				    <item>140.207.239.178:43174</item>
+				    <item>58.247.75.39:43174</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>ctp2</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.166.8:41505</item>
+					<item>180.153.245.51:41296</item>
+					<item>180.153.245.52:41296</item>
+					<item>58.247.75.38:41505</item>
+					<item>140.207.239.177:41296</item>
+					<item>140.207.239.178:41296</item>
+				</Trading>	
+				<MarketData>
+				    <item>101.230.166.8:41543</item>
+				    <item>180.153.245.51:41294</item>
+				    <item>180.153.245.52:41294</item>
+				    <item>58.247.75.38:41543</item>
+				    <item>140.207.239.177:41294</item>
+				    <item>140.207.239.178:41294</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0019" BrokerName="H华创期货" BrokerEName="hcqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.202.78:41133</item>
+					<item>101.230.202.77:41133</item>
+					<item>58.246.30.150:41133</item>
+					<item>58.246.30.151:41133</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.202.78:42233</item>
+					<item>101.230.202.77:42233</item>
+					<item>58.246.30.150:42233</item>
+					<item>58.246.30.151:42233</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0769" BrokerName="H华联期货" BrokerEName="hlqh">
+        <FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+			
+        <IsOldRiskAlg>1</IsOldRiskAlg>		
+
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.225.131:51205</item>
+					<item>114.80.225.132:51205</item>
+					<item>140.207.230.251:51205</item>
+					<item>140.207.230.252:51205</item>
+				</Trading>
+				<MarketData>
+					<item>114.80.225.131:51213</item>
+					<item>114.80.225.132:51213</item>
+					<item>140.207.230.251:51213</item>
+					<item>140.207.230.252:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="0176" BrokerName="H华金期货" BrokerEName="hjqh" ApiType="UFX">
+		<EntrustWay>Q</EntrustWay>	
+		<Servers>
+			<Server>
+				<Name>恒生</Name>
+				<Se>1</Se>
+				<Trading>
+					<item>221.239.114.115:9020</item>
+					<item>221.239.114.115:9020</item>
+					<item>221.239.114.116:9020</item>
+					<item>221.239.114.116:9020</item>
+					<item>111.161.125.65:9020</item>
+					<item>111.161.125.65:9020</item>
+					<item>111.161.125.66:9020</item>
+					<item>111.161.125.66:9020</item>
+				</Trading>
+				<MarketData>
+					<item>221.239.114.115:9020</item>
+					<item>221.239.114.115:9020</item>
+					<item>221.239.114.116:9020</item>
+					<item>221.239.114.116:9020</item>
+					<item>111.161.125.65:9020</item>
+					<item>111.161.125.65:9020</item>
+					<item>111.161.125.66:9020</item>
+					<item>111.161.125.66:9020</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0176" BrokerName="H华金期货" BrokerEName="hjqh">	
+		<Servers>
+			<Server>
+				<Name>CTP</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+                    <item>221.239.33.241:33437</item>
+					<item>125.39.42.19:33437</item>
+					<item>114.94.86.16:51205</item>
+					<item>114.94.86.17:51205</item>
+					<item>114.94.86.18:51205</item>
+					<item>27.115.47.115:51205</item>
+					<item>27.115.47.116:51205</item>
+					<item>27.115.47.117:51205</item>
+				</Trading>
+				<MarketData>
+					<item>221.239.33.241:33443</item>
+					<item>125.39.42.19:33443</item>
+					<item>114.94.86.16:51213</item>
+					<item>114.94.86.17:51213</item>
+					<item>114.94.86.18:51213</item>
+					<item>27.115.47.115:51213</item>
+					<item>27.115.47.116:51213</item>
+					<item>27.115.47.117:51213</item>
+				</MarketData>
+			</Server>
+	    </Servers>
+	</broker>
+	<broker BrokerID="5050" BrokerName="H华龙期货" BrokerEName="hlqhgs">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+
+		<Servers>
+			<Server>
+			<Name>次席</Name>
+			<Se>1</Se>
+			<New>1</New>
+			<Trading>
+					<item>180.166.45.66:41207</item>
+					<item>140.206.102.227:41207</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.45.66:41209</item>
+					<item>140.206.102.227:41209</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0059" BrokerName="H华融融达" BrokerEName="wdqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.6.115:41205</item>
+					<item>114.94.6.112:41205</item>
+					<item>114.94.6.113:41205</item>
+					<item>114.94.6.114:41205</item>
+					<item>140.207.44.75:41205</item>
+					 <item>140.207.44.72:41205</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.6.115:41213</item>
+					<item>114.94.6.112:41213</item>
+				     <item>114.94.6.113:41213</item>
+					 <item>114.94.6.114:41213</item>
+					<item>140.207.44.75:41213</item>
+					<item>140.207.44.72:41213</item>
+				</MarketData>
+			</Server>
+        </Servers>
+	</broker>
+		<broker BrokerID="0296" BrokerName="H和融期货" BrokerEName="hrqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+		            <item>220.248.48.34:41225</item>				
+		            <item>220.248.48.35:41225</item>				
+		            <item>101.230.186.32:41225</item>				
+		            <item>101.230.186.33:41225</item>				
+		        </Trading>
+				<MarketData>
+		            <item>220.248.48.34:41223</item>
+		            <item>220.248.48.35:41223</item>
+		            <item>101.230.186.32:41223</item>
+		            <item>101.230.186.33:41223</item>
+				</MarketData>
+		    </Server>
+		</Servers>
+	</broker>
+	
+	<broker BrokerID="1111" BrokerName="J交子期货" BrokerEName="btqh"> 
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.11.26:43205</item>
+					<item>101.230.11.25:43205</item>
+					<item>112.65.23.193:43205</item>
+					<item>112.65.23.194:43205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.11.26:43213</item>
+					<item>101.230.11.25:43213</item>
+					<item>112.65.23.193:43213</item>
+					<item>112.65.23.194:43213</item>
+				</MarketData>
+		    </Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0097" BrokerName="J津投期货" BrokerEName="jintou">
+		<Servers>
+			<Server>
+				<Name>CTP</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.11.170:41207</item>
+					<item>114.94.11.171:41207</item>
+					<item>140.206.41.183:41207</item>
+					<item>140.206.41.184:41207</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.11.170:41215</item>
+					<item>114.94.11.171:41215</item>
+					<item>140.206.41.183:41215</item>
+					<item>140.206.41.184:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0089" BrokerName="J金元期货" BrokerEName="hnjyqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.95.8.170:41207</item>
+				    <item>140.206.103.34:41207</item>
+				</Trading>
+				<MarketData>
+					<item>101.95.8.170:41215</item>
+					<item>140.206.103.34:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0001" BrokerName="J金鹏期货" BrokerEName="jifco" ApiType="UFX">
+		<EntrustWay>K</EntrustWay>	
+		<Servers>
+			<Server>
+				<Name>恒生</Name>
+				<Se>1</Se>
+				<Trading>
+					<item>106.38.113.203:9020</item>
+					<item>106.38.113.203:9020</item>
+					<item>106.38.113.204:9020</item>
+					<item>106.38.113.204:9020</item>
+					<item>106.38.113.205:9020</item>
+					<item>106.38.113.205:9020</item>
+					<item>106.38.113.206:9020</item>
+					<item>106.38.113.206:9020</item>
+					<item>114.255.101.128:9020</item>
+					<item>114.255.101.128:9020</item>
+					<item>114.255.101.129:9020</item>
+					<item>114.255.101.129:9020</item>
+					<item>114.255.101.130:9020</item>
+					<item>114.255.101.130:9020</item>
+					<item>114.255.101.131:9020</item>
+					<item>114.255.101.131:9020</item>
+				</Trading>
+				<MarketData>
+					<item>106.38.113.203:9020</item>
+					<item>106.38.113.203:9020</item>
+					<item>106.38.113.204:9020</item>
+					<item>106.38.113.204:9020</item>
+					<item>106.38.113.205:9020</item>
+					<item>106.38.113.205:9020</item>
+					<item>106.38.113.206:9020</item>
+					<item>106.38.113.206:9020</item>
+					<item>114.255.101.128:9020</item>
+					<item>114.255.101.128:9020</item>
+					<item>114.255.101.129:9020</item>
+					<item>114.255.101.129:9020</item>
+					<item>114.255.101.130:9020</item>
+					<item>114.255.101.130:9020</item>
+					<item>114.255.101.131:9020</item>
+					<item>114.255.101.131:9020</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0001" BrokerName="J金鹏期货" BrokerEName="jifco"> 	
+		<Servers>
+			<Server>
+				<Name>CTP</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.255.101.135:41205</item>
+					<item>114.255.101.136:41205</item>
+					<item>106.38.113.201:41205</item>
+					<item>106.38.113.202:41205</item>
+				</Trading>
+				<MarketData>
+					<item>114.255.101.135:41213</item>
+					<item>114.255.101.136:41213</item>
+					<item>106.38.113.201:41213</item>
+					<item>106.38.113.202:41213</item>
+				</MarketData>
+		    </Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="95533" BrokerName="J建信期货" BrokerEName="ccbfutures">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.192.97:42205</item>
+					<item>101.230.192.98:42205</item>
+					<item>211.95.58.131:42205</item>
+					<item>211.95.58.132:42205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.192.97:42213</item>
+					<item>101.230.192.98:42213</item>
+					<item>211.95.58.131:42213</item>
+					<item>211.95.58.132:42213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8888" BrokerName="J金瑞期货" BrokerEName="jrqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+   <Servers>
+    <Server>
+    <Name>主席</Name>
+	<Se>1</Se>
+	<New>1</New>
+    <Trading>
+         <item>27.115.79.61:42205</item>
+         <item>27.115.79.62:42205</item>
+         <item>27.115.79.45:42205</item>
+         <item>27.115.79.46:42205</item>
+         <item>221.4.129.107:42206</item>
+         <item>221.4.129.108:42206</item>
+         <item>27.115.79.60:42205</item>
+		  <item>101.231.3.125:42205</item>
+           <item>101.231.3.126:42205</item>
+           <item>101.231.3.109:42205</item>
+           <item>101.231.3.110:42205</item>
+           <item>121.13.237.20:42206</item>
+           <item>121.13.237.21:42206</item>
+           <item>101.231.3.124:42205</item>
+    </Trading>
+    <MarKetData>
+        <item>27.115.79.61:42213</item>
+       <item>27.115.79.62:42213</item>
+       <item>27.115.79.45:42213</item>
+       <item>27.115.79.46:42213</item>
+        <item>221.4.129.107:42214</item>
+        <item>221.4.129.108:42214</item>
+        <item>27.115.79.60:42213</item>
+		 <item>101.231.3.125:42213</item>
+           <item>101.231.3.126:42213</item>
+           <item>101.231.3.109:42213</item>
+           <item>101.231.3.110:42213</item>
+           <item>121.13.237.20:42214</item>
+           <item>121.13.237.21:42214</item>
+           <item>101.231.3.124:42213</item>
+        </MarKetData>
+   </Server>
+   </Servers>
+</broker>
+	<broker BrokerID="0193" BrokerName="J金石期货" BrokerEName="jsfco">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>58.33.28.52:55305</item>
+					<item>27.115.79.22:55305</item>
+					<item>ctp-main.jsfco.com.cn:55305</item>
+					<item>ctp-main.jsfco.com:55305</item>
+				</Trading>
+				<MarketData>
+					<item>58.33.28.52:55313</item>
+					<item>27.115.79.22:55313</item>
+					<item>ctp-main.jsfco.com.cn:55313</item>
+					<item>ctp-main.jsfco.com:55313</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+			<broker BrokerID="10345" BrokerName="J江海汇鑫" BrokerEName="hxqh">	
+		<Servers>
+			<Server>
+			<Name>次席</Name>
+			<Se>1</Se>
+			<New>1</New>
+			<Trading>
+					<item>58.246.86.91:41206</item>
+					<item>58.246.86.92:41206</item>
+					<item>58.34.154.187:41206</item>
+					<item>58.34.154.188:41206</item>
+					<item>218.202.231.1:41206</item>
+					<item>218.202.231.2:41206</item>
+				</Trading>
+				<MarketData>
+					<item>58.246.86.91:41214</item>
+					<item>58.246.86.92:41214</item>
+					<item>58.34.154.187:41214</item>
+					<item>58.34.154.188:41214</item>
+					<item>218.202.231.1:41214</item>
+					<item>218.202.231.2:41214</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="6080" BrokerName="J京都期货" BrokerEName="jingduqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>ctp-cnc1.jingduqh.com:41245</item>
+					<item>ctp-cnc2.jingduqh.com:41245</item>
+					<item>ctp-ct1.jingduqh.com:41245</item>
+					<item>ctp-ct2.jingduqh.com:41245</item>
+				</Trading>
+				<MarketData>
+					<item>ctp-cnc1.jingduqh.com:41249</item>
+					<item>ctp-cnc2.jingduqh.com:41249</item>
+					<item>ctp-ct1.jingduqh.com:41249</item>
+					<item>ctp-ct2.jingduqh.com:41249</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	
+	<broker BrokerID="8888" BrokerName="J锦泰期货" BrokerEName="jtqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>盘中按最新价计算, 盘后按结算价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>58.213.125.201:41206</item>
+					<item>58.213.125.202:41206</item>
+					<item>112.80.230.35:41206</item>
+					<item>112.80.230.36:41206</item>
+				</Trading>
+				<MarketData>
+					<item>58.213.125.201:41216</item>
+					<item>58.213.125.202:41216</item>
+					<item>112.80.230.35:41216</item>
+					<item>112.80.230.36:41216</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0312" BrokerName="J金信期货" BrokerEName="jxqh"> 
+		<Servers>
+				<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.217.104:41205</item>
+                    <item>101.230.217.105:41205</item>
+					<item>220.196.25.243:41205</item>
+                    <item>220.196.25.244:41205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.217.104:41213</item>
+                    <item>101.230.217.105:41213</item>
+					<item>220.196.25.243:41213</item>
+                    <item>220.196.25.244:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>	
+
+	<broker BrokerID="0262" BrokerName="K昆仑期货" BrokerEName="ydfut">
+		<Servers>
+            <Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.2.126:41205</item>
+					<item>58.246.27.209:41205</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.2.126:41213</item>
+					<item>58.246.27.209:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>	
+		<broker BrokerID="1025" BrokerName="M迈科期货" BrokerEName="mkqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+                    <item>101.230.144.99:51205</item>
+			        <item>101.230.144.100:51205</item>
+                    <item>58.247.48.164:51205</item>
+			        <item>58.247.48.165:51205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.144.99:51213</item>
+					<item>101.230.144.100:51213</item>
+                    <item>58.247.48.164:51213</item>
+			        <item>58.247.48.165:51213</item>
+                </MarketData>
+			</Server>
+		</Servers>
+	</broker>
+
+	<broker BrokerID="5118" BrokerName="M民生期货" BrokerEName="msqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+                <Trading>
+					<item>211.95.60.42:41205</item> 
+					<item>101.226.250.28:41205</item> 
+                </Trading>
+                <MarketData>
+					<item>211.95.60.42:41213</item> 
+					<item>101.226.250.28:41213</item> 
+                </MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="5118" BrokerName="M民生期货" BrokerEName="msqh">
+		<Servers>
+			<Server>
+				<Name>CTP二席</Name>
+				<Se>1</Se>
+				<New>1</New>
+                <Trading>
+					<item>140.206.243.203:41205</item> 
+					<item>140.206.243.204:41205</item>
+					<item>101.226.250.203:41205</item> 
+					<item>101.226.250.204:41205</item> 
+					<item>101.226.250.26:41205</item> 
+					<item>211.95.60.43:41205</item> 
+                </Trading>
+                <MarketData>
+					<item>140.206.243.203:41213</item> 
+					<item>140.206.243.204:41213</item> 
+					<item>101.226.250.203:41213</item> 
+					<item>101.226.250.204:41213</item> 
+					<item>101.226.250.26:41213</item> 
+					<item>211.95.60.43:41213</item> 
+                </MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	
+	    <broker BrokerID="8050" BrokerName="N南华期货" BrokerEName="nhqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.138.145:41207</item>
+					<item>114.94.138.147:41207</item>
+					<item>122.224.116.158:41207</item>
+					<item>220.189.211.198:41207</item>
+					<item>112.65.181.212:41207</item>
+					<item>112.65.181.217:41207</item>
+					<item>124.160.44.174:41207</item>
+					<item>124.160.44.169:41207</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.138.145:41215</item>
+					<item>114.94.138.147:41215</item>
+					<item>122.224.116.158:41215</item>
+					<item>220.189.211.198:41215</item>
+					<item>112.65.181.212:41215</item>
+					<item>112.65.181.217:41215</item>
+					<item>124.160.44.174:41215</item>
+					<item>124.160.44.169:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0126" BrokerName="N宁证期货" BrokerEName="nzqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>124.74.247.2:41305</item>
+					<item>120.136.170.2:41305</item>
+				</Trading>
+				<MarketData>
+					<item>124.74.247.2:41313</item>
+					<item>120.136.170.2:41313</item>
+				</MarketData>
+			</Server>
+	    </Servers>
+	</broker>
+	
+	<broker BrokerID="5200" BrokerName="P平安期货" BrokerEName="paqh">
+		<IsOldRiskAlg>1</IsOldRiskAlg>
+		
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.254.58:41205</item>
+					<item>101.226.253.171:41205</item>
+					<item>140.206.244.198:41205</item>
+					<item>140.206.242.43:41205</item>
+					<item>202.69.24.63:41205</item>
+					<item>202.69.24.64:41205</item>
+					<item>202.69.24.65:41205</item>
+					<item>202.69.24.66:41205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.254.58:41213</item>
+					<item>101.226.253.171:41213</item>
+					<item>140.206.244.198:41213</item>
+					<item>140.206.242.43:41213</item>
+					<item>202.69.24.63:41213</item>
+					<item>202.69.24.64:41213</item>
+					<item>202.69.24.65:41213</item>
+					<item>202.69.24.66:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="5200" BrokerName="P平安期货" BrokerEName="paqh">
+		<IsOldRiskAlg>1</IsOldRiskAlg>
+		
+		
+
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>140.206.244.200:41205</item>
+					<item>101.226.254.60:41205</item>
+				</Trading>
+				<MarketData>
+					<item>140.206.244.200:41213</item>
+					<item>101.226.254.60:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+
+		<broker BrokerID="7000" BrokerName="Q齐盛期货" BrokerEName="zjfco">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+			    <Trading>
+					<item>101.226.250.217:42205</item>
+					<item>101.226.250.218:42205</item>
+					<item>140.206.243.209:42205</item>
+					<item>140.206.243.210:42205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.250.217:42213</item>
+					<item>101.226.250.218:42213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0182" BrokerName="Q前海期货" BrokerEName="wfqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+                <Trading>
+					<item>tcp://114.94.198.236:42205</item> 
+					<item>tcp://27.115.6.76:42205</item> 
+                </Trading>
+                <MarketData>
+					<item>tcp://114.94.198.236:42213</item> 
+					<item>tcp://27.115.6.76:42213</item> 
+                </MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="5100" BrokerName="R瑞达期货" BrokerEName="rdqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+			
+        <IsOldRiskAlg>1</IsOldRiskAlg>
+        		
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.6.245:51205</item>
+                   <item>140.206.101.165:51205</item>					
+			    </Trading>
+				<MarketData>
+					<item>180.166.6.245:51213</item> 
+					<item>140.206.101.165:51213</item> 
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="009140" BrokerName="R瑞奇期货" BrokerEName="rqqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>		
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.202.69:41133</item>
+                    <item>101.230.202.70:41133</item>
+					<item>140.207.164.152:41133</item>
+                    <item>140.207.164.153:41133</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.202.69:42233</item>
+                    <item>101.230.202.70:42233</item>
+					<item>140.207.164.152:42233</item>
+                    <item>140.207.164.153:42233</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0163" BrokerName="S神华期货" BrokerEName="shqhgs">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+                <Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.169.53.72:41207</item>
+					<item>211.95.27.156:41207</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.53.72:41215</item>
+					<item>211.95.27.156:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="00001" BrokerName="S上海东亚" BrokerEName="shdy">
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.134.209:42205</item>
+					<item>58.246.24.81:42205</item>
+					<item>117.184.113.129:42205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.134.209:42213</item>
+					<item>58.246.24.81:42213</item>
+					<item>117.184.113.129:42213</item>
+				</MarketData>
+			</Server>
+		    <Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>ctpshdx.dyqh.cn:42205</item>
+					<item>ctpshlt.dyqh.cn:42205</item>
+				</Trading>
+				<MarketData>
+				   <item>ctpshdx.dyqh.cn:42213</item>
+				   <item>ctpshlt.dyqh.cn:42213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0195" BrokerName="S山金期货" BrokerEName="shanjinqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.253.129:41205</item>
+					<item>140.206.241.217:41205</item>
+					<item>114.80.225.19:41205</item>
+					<item>140.207.230.67:41205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.253.129:41213</item>
+					<item>140.206.241.217:41213</item>
+					<item>114.80.225.19:41213</item>
+					<item>140.207.230.67:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0167" BrokerName="S晟鑫期货" BrokerEName="sxqh">
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>210.22.124.49:61133</item>
+				    <item>210.22.124.50:61133</item>
+					<item>101.230.174.161:61133</item>
+					<item>101.230.174.162:61133</item>
+				</Trading>
+				<MarketData>
+				    <item>210.22.124.49:62233</item>
+				    <item>210.22.124.50:62233</item>
+					<item>101.230.174.161:62233</item>
+					<item>101.230.174.162:62233</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+
+	<broker BrokerID="88888" BrokerName="S申万期货" BrokerEName="sywgqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.168.212.53:31205</item>
+					<item>180.168.212.54:31205</item>
+					<item>180.168.212.55:31205</item>
+					<item>180.168.212.58:31205</item>
+					<item>180.168.212.59:31205</item>
+					<item>124.74.247.146:31205</item>
+					<item>124.74.247.146:31207</item>
+					<item>124.74.247.146:31209</item>
+					<item>124.74.247.146:31211</item>
+				</Trading>
+				<MarketData>
+					<item>180.168.212.55:31213</item>
+					<item>180.168.212.58:31213</item>
+					<item>180.168.212.59:31213</item>
+				</MarketData>
+			</Server>
+	   </Servers>
+	</broker>
+	<broker BrokerID="8016" BrokerName="S首创期货" BrokerEName="scqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.15.17:41207</item>
+					<item>101.230.15.18:41207</item>
+					<item>211.95.67.117:41207</item>
+					<item>211.95.67.118:41207</item>
+				</Trading>
+				<MarketData>
+				    <item>101.230.15.17:41215</item>
+					<item>101.230.15.18:41215</item>
+					<item>211.95.67.117:41215</item>
+					<item>211.95.67.118:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="6080" BrokerName="S首创京都" BrokerEName="jingduqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+                <Se>1</Se>
+                <New>1</New>
+				<Trading>
+					<item>ctp-cnc1.jingduqh.com:41245</item>
+					<item>ctp-cnc2.jingduqh.com:41245</item>
+					<item>ctp-ct1.jingduqh.com:41245</item>
+					<item>ctp-ct2.jingduqh.com:41245</item>
+				</Trading>
+				<MarketData>
+					<item>ctp-cnc1.jingduqh.com:41249</item>
+					<item>ctp-cnc2.jingduqh.com:41249</item>
+					<item>ctp-ct1.jingduqh.com:41249</item>
+					<item>ctp-ct2.jingduqh.com:41249</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="8070" BrokerName="S上海中期" BrokerEName="shcifco">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>盘中按最新价计算, 盘后按结算价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+			
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+			
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.168.214.244:21205</item>
+					<item>180.168.214.245:21205</item>
+					<item>180.168.214.246:21205</item>
+					<item>180.168.214.247:21205</item>
+					<item>180.168.214.248:21205</item>
+                    <item>101.226.253.243:21205</item>
+                     <item>101.226.253.244:21205</item>
+                     <item>101.226.253.245:21205</item>
+					 <item>27.115.57.145:21205</item>
+					<item>27.115.57.146:21205</item>
+					<item>27.115.57.147:21205</item>
+					<item>27.115.57.148:21205</item>
+					<item>27.115.57.150:21205</item>
+				</Trading>
+				<MarketData>
+					<item>180.168.214.244:21213</item>
+					<item>180.168.214.245:21213</item>
+					<item>180.168.214.246:21213</item>
+					<item>180.168.214.247:21213</item>
+					<item>180.168.214.248:21213</item>
+                     <item>101.226.253.243:21213</item>
+                     <item>101.226.253.244:21213</item>
+                      <item>101.226.253.245:21213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="3040" BrokerName="S上海东证" BrokerEName="dzqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.169.85.204:61205</item>
+					<item>180.166.103.38:61205</item>
+					<item>124.74.247.69:61205</item>
+					<item>180.166.103.38:61205</item>
+					<item>61.135.164.197:61205</item>
+					<item>140.206.101.26:61205</item>
+					<item>120.136.170.68:61205</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.85.204:61213</item>
+					<item>180.166.103.38:61213</item>
+					<item>124.74.247.69:61213</item>
+					<item>180.166.103.38:61213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="3040" BrokerName="S上海东证" BrokerEName="dzqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>3席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>124.74.247.72:61205</item>
+				</Trading>
+				<MarketData>
+					<item>124.74.247.72:61213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="88888" BrokerName="S盛达期货" BrokerEName="sdqh">	
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+			
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>122.224.130.74:42205</item>
+					<item>122.224.130.75:42205</item>
+					<item>122.224.130.76:42205</item>
+					<item>122.224.130.77:42205</item>
+					<item>122.224.130.78:42205</item>
+				    <item>60.12.233.242:42205</item>
+					<item>60.12.233.243:42205</item>
+					<item>60.12.233.244:42205</item>
+					<item>60.12.233.245:42205</item>
+					<item>60.12.233.246:42205</item>
+                    <item>112.17.100.41:42205</item>
+					<item>112.17.100.49:42205</item>
+					<item>112.17.100.51:42205</item>
+					<item>112.17.100.55:42205</item>
+					<item>112.17.100.61:42205</item>
+				</Trading>
+				<MarketData>
+				    <item>122.224.130.74:42213</item>
+					<item>122.224.130.75:42213</item>
+					<item>122.224.130.76:42213</item>
+					<item>122.224.130.77:42213</item>
+					<item>122.224.130.78:42213</item>
+				    <item>60.12.233.242:42213</item>
+					<item>60.12.233.243:42213</item>
+					<item>60.12.233.244:42213</item>
+					<item>60.12.233.245:42213</item>
+					<item>60.12.233.246:42213</item>
+                    <item>112.17.100.41:42213</item>
+					<item>112.17.100.49:42213</item>
+					<item>112.17.100.51:42213</item>
+					<item>112.17.100.55:42213</item>
+					<item>112.17.100.61:42213</item>
+				</MarketData>
+		    </Server>
+		</Servers>
+	</broker>
+	    
+	<broker BrokerID="3179" BrokerName="S山西三立" BrokerEName="sxslqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.250.179:41205</item>
+					<item>140.207.228.35:41205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.250.179:41213</item>
+					<item>140.207.228.35:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="4050" BrokerName="T铜冠金源" BrokerEName="jyqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按前结算计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>116.228.31.210:51205</item>
+					<item>116.228.31.211:51205</item>
+					<item>58.32.208.9:51205</item>
+					<item>27.115.57.92:51205</item>
+					<item>27.115.57.94:51205</item>
+					<item>27.115.57.93:51205</item>
+				</Trading>
+				<MarketData>
+					<item>116.228.31.210:51213</item>
+					<item>116.228.31.211:51213</item>
+					<item>58.32.208.9:51213</item>
+					<item>27.115.57.92:51213</item>
+					<item>27.115.57.94:51213</item>
+					<item>27.115.57.93:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="9099" BrokerName="T同信久恒" BrokerEName="txjhqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.13.41:41207</item>
+					<item>180.166.13.42:41207</item>
+					<item>180.166.13.43:41207</item>
+					<item>180.166.13.44:41207</item>
+					<item>140.206.101.140:41207</item>
+					<item>140.206.101.141:41207</item>
+					<item>140.206.101.142:41207</item>
+					<item>140.206.101.143:41207</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.13.41:41213</item>
+					<item>180.166.13.42:41213</item>
+					<item>180.166.13.43:41213</item>
+					<item>180.166.13.44:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+
+	<broker BrokerID="4020" BrokerName="T天鸿期货" BrokerEName="thqh">	
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.185.210:42205</item>
+					<item>101.230.185.211:42205</item>
+					<item>112.64.181.25:42205</item>
+					<item>112.64.181.26:42205</item>
+				</Trading>
+				<MarketData>
+                    <item>101.230.185.210:42213</item>
+					<item>101.230.185.211:42213</item>
+					<item>112.64.181.25:42213</item>
+					<item>112.64.181.26:42213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0173" BrokerName="T天富期货" BrokerEName="tianfu">
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.185.226:51205</item>
+					<item>140.206.37.84:51205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.185.226:51213</item>
+					<item>140.206.37.84:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0150" BrokerName="T通惠期货" BrokerEName="tlqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>222.66.238.66:41505</item>
+					<item>112.64.129.30:41505</item>
+				</Trading>
+				<MarketData>
+					<item>222.66.238.66:41513</item>
+					<item>112.64.129.30:41513</item>
+				</MarketData>
+			</Server>
+		</Servers>	
+	</broker>
+	<broker BrokerID="8899" BrokerName="W五矿期货" BrokerEName="wkjy">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.231.127.50:42205</item>
+					<item>101.231.127.51:42205</item>
+					<item>218.16.100.147:42205</item>
+					<item>218.16.100.148:42205</item>
+					<item>120.136.160.164:42205</item>
+					<item>120.136.160.165:42205</item>
+					<item>211.95.40.228:42205</item>
+					<item>211.95.40.229:42205</item>
+					<item>120.86.113.162:42205</item>
+					<item>120.86.113.163:42205</item>
+				</Trading>
+				<MarketData>
+					<item>101.231.127.50:42213</item>
+					<item>101.231.127.51:42213</item>
+					<item>218.16.100.147:42213</item>
+					<item>218.16.100.148:42213</item>
+					<item>120.136.160.164:42213</item>
+					<item>120.136.160.165:42213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="6050" BrokerName="X先锋期货" BrokerEName="xfqh">
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+                <Trading>
+					<item>101.230.143.201:33437</item>
+					<item>101.230.143.202:33437</item>
+					<item>101.230.143.203:33437</item>
+					<item>101.230.143.204:33437</item>
+					<item>101.230.143.205:33437</item>
+					<item>101.230.143.206:33437</item>
+					<item>112.65.164.151:33437</item>
+					<item>112.65.164.152:33437</item>
+					<item>112.65.164.153:33437</item>
+					<item>112.65.164.154:33437</item>
+					<item>112.65.164.155:33437</item>
+					<item>112.65.164.156:33437</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.143.201:33443</item>
+					<item>101.230.143.202:33443</item>
+					<item>101.230.143.203:33443</item>
+					<item>101.230.143.204:33443</item>
+					<item>101.230.143.205:33443</item>
+					<item>101.230.143.206:33443</item>
+					<item>112.65.164.151:33443</item>
+					<item>112.65.164.152:33443</item>
+					<item>112.65.164.153:33443</item>
+					<item>112.65.164.154:33443</item>
+					<item>112.65.164.155:33443</item>
+					<item>112.65.164.156:33443</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="0021" BrokerName="X鑫鼎盛期货" BrokerEName="xdsfutures"> 	
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+                <Trading>
+					<item>180.166.206.64:41209</item>
+					<item>27.115.57.11:41209</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.206.64:41213</item>
+					<item>27.115.57.11:41213</item>
+				</MarketData>
+		    </Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0189" BrokerName="X新纪元期货" BrokerEName="xjyqh" ApiType="XONE"> 
+		<Servers> 
+		    <Server> 
+				<Name>飞创主席</Name>  
+				<Se>1</Se>
+				<Trading> 
+				  <item>tcp://218.3.241.10:9999</item> 
+                  <item>tcp://218.3.241.10:9999</item>
+				  <item>tcp://221.6.214.228:9999</item> 
+				  <item>tcp://221.6.214.228:9999</item> 
+				  <item>tcp://58.218.250.13:9999</item> 
+				  <item>tcp://58.218.250.13:9999</item> 
+				</Trading>  
+				<MarketData> 
+				</MarketData> 
+		    </Server>
+		</Servers> 
+    </broker> 
+	<broker BrokerID="0189" BrokerName="X新纪元期货" BrokerEName="xjyqh">         	
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>CTP</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.8.33:51205</item>
+					<item>112.65.23.99:51205</item>
+					<item>101.226.254.33:51205</item>
+					<item>140.207.239.161:51205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.8.33:51213</item>
+					<item>112.65.23.99:51213</item>
+					<item>101.226.254.33:51213</item>
+					<item>140.207.239.161:51213</item>
+				</MarketData>
+			</Server>		
+		</Servers>
+	</broker>
+	<broker BrokerID="4200" BrokerName="X兴证期货" BrokerEName="xzfutures">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+			
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+			
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+			    <Trading>
+                    <item>180.166.11.39:11818</item>
+                    <item>180.166.11.40:11818</item>
+                    <item>180.166.11.33:11818</item>
+					<item>180.166.11.42:11818</item>
+					<item>27.115.78.98:11818</item>
+                    <item>27.115.78.99:11818</item>
+                    <item>27.115.78.101:11818</item>
+                </Trading>
+                <MarketData>
+                    <item>180.166.11.39:11616</item>
+                    <item>180.166.11.40:11616</item>
+                    <item>180.166.11.33:11616</item>
+					<item>180.166.11.42:11616</item>
+                </MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="9070" BrokerName="X新世纪期货" BrokerEName="zjncf">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>114.80.54.247:41305</item>
+					<item>114.80.54.251:41305</item>
+                    <item>114.80.54.243:41305</item>
+                    <item>60.191.15.69:41305</item>
+					<item>140.206.241.87:41305</item>
+					<item>140.206.241.91:41305</item>
+	                <item>140.206.241.83:41305</item>
+                    <item>60.12.233.197:41305</item>
+				</Trading>
+				<MarketData>
+				    <item>114.80.54.248:41313</item>
+					<item>114.80.54.252:41313</item>
+                    <item>114.80.54.244:41313</item>
+ 	                <item>60.191.15.68:41313</item>
+				</MarketData>
+		    </Server>
+	</Servers>
+	</broker>
+		<broker BrokerID="8000" BrokerName="X兴业期货" BrokerEName="xyqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>140.207.238.1:51205</item>
+					<item>140.207.238.2:51205</item>
+					<item>114.80.104.121:51205</item>
+					<item>114.80.104.122:51205</item>
+				</Trading>
+				<MarketData>
+					<item>140.207.238.1:51213</item>
+					<item>140.207.238.2:51213</item>
+					<item>114.80.104.121:51213</item>
+					<item>114.80.104.122:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="6090" BrokerName="X新湖期货" BrokerEName="xinhu">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>114.94.85.81:51207</item>
+					<item>114.94.85.82:51207</item>
+					<item>114.94.85.83:51207</item>
+					<item>114.94.85.84:51207</item>
+					<item>27.115.91.81:51207</item>
+					<item>27.115.91.82:51207</item>
+					<item>27.115.91.83:51207</item>
+				    <item>27.115.91.84:51207</item>
+				</Trading>
+				<MarketData>
+				    <item>114.94.85.81:51215</item>
+					<item>114.94.85.82:51215</item>
+					<item>114.94.85.83:51215</item>
+					<item>114.94.85.84:51215</item>
+					<item>27.115.91.81:51215</item>
+					<item>27.115.91.82:51215</item>
+					<item>27.115.91.83:51215</item>
+					<item>27.115.91.84:51215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="9090" BrokerName="X西部期货" BrokerEName="xbqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.104.170:41207</item>
+					<item>58.246.134.250:41207</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.104.170:41215</item>
+					<item>58.246.134.250:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+
+		<broker BrokerID="1000" BrokerName="X信达期货" BrokerEName="cindaqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>222.66.101.190:47205</item>
+					<item>124.74.248.120:47205</item>
+					<item>120.136.171.84:47205</item>
+				</Trading>
+				<MarketData>
+					<item>222.66.101.190:27215</item>
+					<item>124.74.248.120:27215</item>
+					<item>120.136.171.84:47215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="3497" BrokerName="X西南期货" BrokerEName="xnqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.169.116.182:41207</item>
+					<item>140.206.101.62:41207</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.116.182:41215</item>
+					<item>140.206.101.62:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0018" BrokerName="X先融期货" BrokerEName="xrqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>183.71.251.187:41405</item>
+					<item>183.71.251.188:41405</item>
+					<item>183.71.251.189:41405</item>
+					<item>183.71.251.190:41405</item>
+					<item>27.8.44.60:41405</item>
+					<item>27.8.44.61:41405</item>
+					<item>27.8.44.62:41405</item>
+					<item>27.8.44.63:41405</item>
+				</Trading>
+				<MarketData>
+					<item>183.71.251.187:41413</item>
+					<item>183.71.251.188:41413</item>
+					<item>183.71.251.189:41413</item>
+					<item>183.71.251.190:41413</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+
+		<broker BrokerID="4040" BrokerName="Y银河期货" BrokerEName="yhqhkh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>180.166.103.21:55205</item>
+                    <item>101.230.198.41:56205</item>
+					<item>180.166.103.21:57205</item>
+					<item>58.247.171.151:55205</item>
+					<item>58.247.171.151:57205</item>
+					<item>27.115.78.41:56205</item>
+                </Trading>
+                <MarketData>
+                    <item>180.166.103.21:55213</item>
+                    <item>101.230.198.41:56213</item>
+					<item>180.166.103.21:57213</item>
+					<item>58.247.171.151:55213</item>
+					<item>58.247.171.151:57213</item>
+					<item>27.115.78.41:56213</item>
+                </MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="20000" BrokerName="Y永安期货" BrokerEName="yafco">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+        		
+   <Servers>
+    <Server>
+       <Name>次席</Name>
+	   <Se>1</Se>
+	   <New>1</New>
+       <Trading>
+		    <item>180.169.124.109:41255</item>
+			<item>180.169.124.110:41255</item>
+			<item>122.224.221.229:41255</item>
+		    <item>122.224.221.230:41255</item>
+			<item>140.206.102.109:41255</item>
+		   <item>140.206.102.110:41255</item>
+			<item>124.160.66.119:41255</item>
+		   <item>124.160.66.120:41255</item>
+       </Trading>
+       <MarketData>
+			<item>180.169.124.109:41253</item>
+			<item>180.169.124.110:41253</item>
+			<item>122.224.221.229:41253</item>
+			<item>122.224.221.230:41253</item>
+			<item>140.206.102.109:41253</item>
+			<item>140.206.102.110:41253</item>
+			<item>124.160.66.119:41253</item>
+			<item>124.160.66.120:41253</item>
+       </MarketData>
+    </Server>
+    </Servers>
+	</broker>
+	<broker BrokerID="5060" BrokerName="Y一德期货" BrokerEName="ydqh"> 
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.253.41:41205</item>
+					<item>101.226.253.42:41205</item>
+					<item>101.226.253.43:41205</item>
+					<item>101.226.253.44:41205</item>
+					<item>101.226.253.45:41205</item>
+					<item>101.226.253.46:41205</item>
+					<item>221.238.225.77:61205</item>
+					<item>221.238.225.78:61205</item>
+					<item>211.95.60.249:41205</item>
+					<item>211.95.60.250:41205</item>
+					<item>211.95.60.251:41205</item>
+					<item>211.95.60.252:41205</item>
+					<item>211.95.60.253:41205</item>
+					<item>211.95.60.254:41205</item>
+					<item>60.30.92.149:61205</item>
+					<item>60.30.92.150:61205</item>
+					<item>111.30.32.202:61205</item>
+					<item>111.30.32.203:61205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.253.41:41213</item>
+					<item>101.226.253.42:41213</item>
+					<item>101.226.253.43:41213</item>
+					<item>101.226.253.44:41213</item>
+					<item>101.226.253.45:41213</item>
+					<item>101.226.253.46:41213</item>
+					<item>221.238.225.77:61213</item>
+					<item>221.238.225.78:61213</item>
+					<item>211.95.60.249:41213</item>
+					<item>211.95.60.250:41213</item>
+					<item>211.95.60.251:41213</item>
+					<item>211.95.60.252:41213</item>
+					<item>211.95.60.253:41213</item>
+					<item>211.95.60.254:41213</item>
+					<item>60.30.92.149:61213</item>
+					<item>60.30.92.150:61213</item>
+					<item>111.30.32.202:61213</item>
+					<item>111.30.32.203:61213</item>
+				</MarketData>
+		    </Server>
+		    <Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>front1.ctp.ydqh.cn:51205</item>
+					<item>front5.ctp.ydqh.cn:51205</item>
+					<item>front3.ctp.ydqh.cn:51205</item>
+					<item>front7.ctp.ydqh.cn:51205</item>
+					<item>front2.ctp.ydqh.cn:51205</item>
+					<item>front4.ctp.ydqh.cn:51205</item>
+					<item>front6.ctp.ydqh.cn:51205</item>
+					<item>front8.ctp.ydqh.cn:51205</item>
+				</Trading>
+				<MarketData>
+					<item>md1.ctp.ydqh.cn:51213</item>
+					<item>md3.ctp.ydqh.cn:51213</item>
+					<item>md5.ctp.ydqh.cn:51213</item>
+					<item>md7.ctp.ydqh.cn:51213</item>
+					<item>md2.ctp.ydqh.cn:51213</item>
+					<item>md4.ctp.ydqh.cn:51213</item>
+					<item>md6.ctp.ydqh.cn:51213</item>
+					<item>md8.ctp.ydqh.cn:51213</item>
+				</MarketData>
+		    </Server>			
+		</Servers>
+	</broker>
+	<broker BrokerID="6060" BrokerName="Y云财富期货" BrokerEName="cloudfutures">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>140.207.239.218:41205</item>
+					<item>140.207.239.219:41205</item>
+					<item>140.207.239.220:41205</item>
+					<item>140.207.239.221:41205</item>
+					<item>101.226.250.90:41205</item>
+					<item>101.226.250.91:41205</item>
+					<item>101.226.250.92:41205</item>
+					<item>101.226.250.93:41205</item>
+				</Trading>
+				<MarketData>
+					<item>140.207.239.218:41213</item>
+					<item>140.207.239.219:41213</item>
+					<item>140.207.239.220:41213</item>
+					<item>140.207.239.221:41213</item>
+					<item>101.226.250.90:41213</item>
+					<item>101.226.250.91:41213</item>
+					<item>101.226.250.92:41213</item>
+					<item>101.226.250.93:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0001" BrokerName="Z紫金天风" BrokerEName="tfqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+                    <item>101.230.80.85:41206</item>
+                    <item>101.230.80.86:41206</item>
+                    <item>101.230.80.87:41206</item>
+					<item>112.65.183.115:41206</item>
+					<item>112.65.183.116:41206</item>
+					<item>112.65.183.117:41206</item>
+				</Trading>
+				<MarketData>
+                   <item>101.230.80.85:41214</item>
+                    <item>101.230.80.86:41214</item>
+                    <item>101.230.80.87:41214</item>
+					<item>112.65.183.115:41214</item>
+ 					<item>112.65.183.116:41214</item>
+ 					<item>112.65.183.117:41214</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="7030" BrokerName="Z正信期货" BrokerEName="mfc">
+		<IsOldRiskAlg>1</IsOldRiskAlg>
+        		
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>tcp://sh-front1.168qh.com:41207</item>
+					<item>tcp://sh-front1.zxqh.net:41207</item>
+					<item>tcp://sh-front2.168qh.com:41207</item>
+					<item>tcp://sh-front2.zxqh.net:41207</item>
+					<item>tcp://sh-front3.168qh.com:41207</item>
+					<item>tcp://sh-front3.zxqh.net:41207</item>
+					<item>tcp://sh-front4.168qh.com:41207</item>
+					<item>tcp://sh-front4.zxqh.net:41207</item>
+					<item>tcp://sh-front5.168qh.com:41207</item>
+					<item>tcp://sh-front11.168qh.com:41207</item>
+					<item>tcp://sh-front11.zxqh.net:41207</item>
+					<item>tcp://sh-front12.168qh.com:41207</item>
+					<item>tcp://sh-front12.zxqh.net:41207</item>
+					<item>tcp://sh-front13.168qh.com:41207</item>
+					<item>tcp://sh-front13.zxqh.net:41207</item>
+					<item>tcp://sh-front14.168qh.com:41207</item>
+					<item>tcp://sh-front14.zxqh.net:41207</item>
+				</Trading>
+				<MarketData>			
+					<item>tcp://sh-front1.168qh.com:41215</item>
+					<item>tcp://sh-front1.zxqh.net:41215</item>
+					<item>tcp://sh-front2.168qh.com:41215</item>
+					<item>tcp://sh-front2.zxqh.net:41215</item>
+					<item>tcp://sh-front3.168qh.com:41215</item>
+					<item>tcp://sh-front3.zxqh.net:41215</item>
+					<item>tcp://sh-front4.168qh.com:41215</item>
+					<item>tcp://sh-front4.zxqh.net:41215</item>
+					<item>tcp://sh-front11.168qh.com:41215</item>
+					<item>tcp://sh-front11.zxqh.net:41215</item>
+					<item>tcp://sh-front12.168qh.com:41215</item>
+					<item>tcp://sh-front12.zxqh.net:41215</item>
+					<item>tcp://sh-front13.168qh.com:41215</item>
+					<item>tcp://sh-front13.zxqh.net:41215</item>
+					<item>tcp://sh-front14.168qh.com:41215</item>
+					<item>tcp://sh-front14.zxqh.net:41215</item>
+					<item>tcp://sh-front15.168qh.com:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="7030" BrokerName="Z正信期货" BrokerEName="mfc">
+		<IsOldRiskAlg>1</IsOldRiskAlg>
+        		
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>tcp://shzj1.zxqh.net:40207</item>
+					<item>tcp://shzj2.zxqh.net:40207</item>
+					<item>tcp://shzj11.zxqh.net:40207</item>
+					<item>tcp://shzj12.zxqh.net:40207</item>
+				</Trading>
+				<MarketData>
+					<item>tcp://shzj1.zxqh.net:40215</item>
+					<item>tcp://shzj2.zxqh.net:40215</item>
+					<item>tcp://shzj11.zxqh.net:40215</item>
+					<item>tcp://shzj12.zxqh.net:40215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0268" BrokerName="Z中金岭南" BrokerEName="szjhqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>主中心</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.253.150:41205</item>
+					<item>101.226.253.151:41205</item>
+					<item>140.206.244.166:41205</item>
+					<item>140.206.244.167:41205</item>
+					<item>119.145.103.83:41205</item>
+					<item>120.197.104.19:41205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.253.150:41213</item>
+					<item>101.226.253.151:41213</item>
+					<item>140.206.244.166:41213</item>
+					<item>140.206.244.167:41213</item>
+					<item>119.145.103.83:41213</item>
+					<item>120.197.104.19:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	    <broker BrokerID="7080" BrokerName="Z中泰期货" BrokerEName="lzqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.94.17.33:51205</item>
+					<item>114.94.17.34:51205</item>
+					<item>114.94.17.35:51205</item>
+					<item>112.65.172.131:51205</item>
+					<item>112.65.172.132:51205</item>
+					<item>112.65.172.133:51205</item>
+				</Trading>
+				<MarketData>
+					<item>114.94.17.33:51213</item>
+					<item>114.94.17.34:51213</item>
+					<item>114.94.17.35:51213</item>
+					<item>112.65.172.131:51213</item>
+					<item>112.65.172.132:51213</item>
+					<item>112.65.172.133:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="66666" BrokerName="Z中信期货" BrokerEName="citicsf">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+			
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+			
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.169.101.177:43205</item>
+					<item>115.238.108.184:43205</item>
+					<item>121.15.139.123:43205</item>
+					<item>58.246.202.226:43205</item>
+					<item>221.12.30.12:43205</item>
+					<item>123.124.247.8:43205</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.101.177:43213</item>
+					<item>115.238.108.184:43213</item>
+					<item>121.15.139.123:43213</item>
+					<item>58.246.202.226:43213</item>
+					<item>221.12.30.12:43213</item>
+					<item>123.124.247.8:43213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="9080" BrokerName="Z中信建投" BrokerEName="zxjtqh">
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>61.186.254.135:42205</item>
+					<item>180.166.25.24:42205</item>
+					<item>101.231.128.133:42205</item>
+					<item>114.80.55.93:42205</item>
+					<item>114.80.55.94:42205</item>
+					<item>140.207.150.241:42205</item>
+					<item>113.204.105.118:42205</item>
+					<item>202.130.235.165:42205</item>
+					<item>220.248.8.198:42205</item>
+					<item>220.248.8.199:42205</item>
+				</Trading>
+				<MarketData>
+					<item>61.186.254.135:42213</item>
+					<item>180.166.25.24:42213</item>
+					<item>101.231.128.133:42213</item>
+					<item>114.80.55.93:42213</item>
+					<item>114.80.55.94:42213</item>
+					<item>140.207.150.241:42213</item>
+					<item>113.204.105.118:42205</item>
+					<item>202.130.235.165:42213</item>
+					<item>220.248.8.198:42213</item>
+					<item>220.248.8.199:42213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	    <broker BrokerID="6868" BrokerName="Z中融汇信" BrokerEName="zrhxqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>114.80.55.165:51205</item>
+					<item>140.206.242.85:51205</item>
+				</Trading>
+				<MarketData>
+					<item>114.80.55.165:51213</item>
+					<item>140.206.242.85:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="0274" BrokerName="Z中辉期货" BrokerEName="zhqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+			
+
+		<Servers>
+		    <Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.226.253.37:42205</item>
+					<item>101.226.253.38:42205</item>
+					<item>124.74.248.87:42205</item>
+					<item>124.74.248.88:42205</item>
+					<item>59.49.16.211:42205</item>
+					<item>59.49.33.125:42205</item>
+					<item>140.207.226.228:42205</item>
+					<item>140.207.226.229:42205</item>
+					<item>120.136.171.37:42205</item>
+					<item>120.136.171.38:42205</item>
+					<item>218.26.165.125:42205</item>
+					<item>218.26.117.227:42205</item>
+				</Trading>
+				<MarketData>
+					<item>101.226.253.37:42213</item>
+					<item>101.226.253.38:42213</item>
+					<item>124.74.248.87:42213</item>
+					<item>124.74.248.88:42213</item>
+					<item>59.49.16.211:42213</item>
+					<item>59.49.33.125:42213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	    
+	<broker BrokerID="0155" BrokerName="Z中财期货" BrokerEName="zcqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>	
+					<item>180.168.159.227:51205</item>
+					<item>180.168.159.228:51205</item>
+                    <item>180.167.94.121:51205</item>
+					<item>180.167.94.122:51205</item>
+					<item>27.115.78.108:51205</item>
+                    <item>27.115.78.110:51205</item>
+					<item>58.247.0.67:51205</item>
+					<item>58.247.0.68:51205</item>
+				</Trading>
+				<MarketData>
+					<item>180.168.159.227:51213</item>
+					<item>180.168.159.228:51213</item>
+					<item>180.167.94.121:41213</item>
+					<item>180.167.94.121:51213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		
+	<broker BrokerID="5040" BrokerName="Z中银国际" BrokerEName="bocifco">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+          <Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.108.193:21205</item>
+                    <item>101.230.108.194:21205</item>
+                    <item>101.230.108.195:21205</item>
+                    <item>101.230.108.196:21205</item>
+					<item>112.65.17.163:21205</item>
+					<item>112.65.17.164:21205</item>
+					<item>112.65.17.165:21205</item>
+					<item>112.65.17.166:21205</item>
+				</Trading>
+				<MarketData>
+                  <item>101.230.108.193:21213</item>
+                    <item>101.230.108.194:21213</item>
+                    <item>101.230.108.195:21213</item>
+                    <item>101.230.108.196:21213</item>
+					<item>112.65.17.163:21213</item>
+					<item>112.65.17.164:21213</item>
+					<item>112.65.17.165:21213</item>
+					<item>112.65.17.166:21213</item>
+				</MarketData>
+			 </Server>
+		</Servers>
+	</broker>
+		 <broker BrokerID="7050" BrokerName="Z中金财富" BrokerEName="ztqh">
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.230.142.52:41205</item>
+					<item>101.230.142.53:41205</item>
+					<item>101.230.142.54:41205</item>
+					<item>27.115.21.188:41205</item>
+					<item>27.115.21.189:41205</item>
+					<item>27.115.21.190:41205</item>
+				</Trading>
+				<MarketData>
+					<item>101.230.142.52:41213</item>
+					<item>101.230.142.53:41213</item>
+					<item>101.230.142.54:41213</item>
+					<item>27.115.21.188:41213</item>
+					<item>27.115.21.189:41213</item>
+					<item>27.115.21.190:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	 <broker BrokerID="1299" BrokerName="Z中州期货" BrokerEName="zzqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>140.206.241.196:41305</item>
+					<item>140.206.241.197:41305</item>
+					<item>140.206.241.198:41305</item>
+					<item>101.226.253.188:41305</item>
+					<item>101.226.253.189:41305</item>
+					<item>101.226.253.190:41305</item>
+				</Trading>
+				<MarketData>
+					<item>140.206.241.196:41313</item>
+					<item>140.206.241.197:41313</item>
+					<item>140.206.241.198:41313</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="8060" BrokerName="Z招商期货" BrokerEName="cmf">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<IsOldRiskAlg>1</IsOldRiskAlg>
+						
+		<Servers>
+			<Server>
+				<Name>主席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.65.121:41205</item>
+					<item>180.166.65.122:41205</item>
+					<item>106.120.74.92:41205</item>
+					<item>61.144.235.29:41205</item>
+					<item>218.17.194.3:41205</item>
+					<item>218.17.194.4:41205</item>
+					<item>140.206.80.231:41205</item>
+					<item>140.206.80.232:41205</item>
+					<item>202.106.83.247:41205</item>
+					<item>210.21.232.118:41205</item>
+					<item>58.250.176.51:41205</item>
+					<item>58.250.176.52:41205</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.65.121:41213</item>
+					<item>180.166.65.122:41213</item>
+					<item>106.120.74.92:41213</item>
+					<item>61.144.235.29:41213</item>
+					<item>218.17.194.3:41213</item>
+					<item>218.17.194.4:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	 <broker BrokerID="8888" BrokerName="Z中粮期货" BrokerEName="zlqh">
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>114.94.14.128:57205</item>
+					<item>211.95.64.33:57205</item>
+				</Trading>
+				<MarketData>
+				    <item>114.94.14.128:57213</item>
+					<item>211.95.64.33:57213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	 <broker BrokerID="0199" BrokerName="Z中原期货" BrokerEName="zyqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		
+
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+				    <item>180.169.29.49:41133</item>
+					<item>180.169.29.50:41133</item>
+					<item>58.246.138.149:41133</item>
+					<item>58.246.138.150:41133</item>
+				</Trading>
+				<MarketData>
+				    <item>180.169.29.49:42233</item>
+					<item>180.169.29.50:42233</item>
+					<item>58.246.138.149:42233</item>
+					<item>58.246.138.150:42233</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+		<broker BrokerID="6010" BrokerName="Z浙商期货" BrokerEName="cnzsqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>180.166.1.17:41305</item>
+					<item>115.238.34.151:41305</item>
+					<item>122.224.243.56:41305</item>
+					<item>122.224.170.2:41305</item>
+					<item>140.206.112.130:41305</item>
+					<item>124.160.35.53:41305</item>
+					<item>221.12.4.112:41305</item>
+					<item>124.160.36.203:41305</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.1.17:41313</item>
+					<item>115.238.34.151:41313</item>
+					<item>122.224.243.56:41313</item>
+					<item>122.224.170.2:41313</item>
+					<item>140.206.112.130:41313</item>
+					<item>124.160.35.53:41313</item>
+					<item>221.12.4.112:41313</item>
+					<item>124.160.36.203:41313</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0198" BrokerName="Z中天期货" BrokerEName="yjqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+				
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>101.95.8.30:41207</item>
+					<item>27.115.56.206:41207</item>
+				</Trading>
+				<MarketData>
+					<item>101.95.8.30:41215</item>
+					<item>27.115.56.206:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="5600" BrokerName="Z中大期货" BrokerEName="zdqh">
+		<FloatProfitAlgorithm>浮盈不计，浮亏计</FloatProfitAlgorithm>		
+		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+				
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+				
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+			
+
+		<Servers>
+		    <Server>
+			 <Name>次席</Name>
+			 <Se>1</Se>
+			 <New>1</New>
+		     <Trading>
+					<item>180.169.124.125:41207</item>
+					<item>140.206.102.115:41207</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.124.125:41215</item>
+					<item>140.206.102.115:41215</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="0156" BrokerName="Z中衍期货" BrokerEName="zhongyan"> 
+		<Servers>
+			<Server>
+				<Name>次席</Name>
+	                  <Se>1</Se>
+					  <New>1</New>
+				<Trading>
+					<item>117.186.20.194:41209</item>
+					<item>117.186.20.194:41210</item>
+					<item>211.95.16.106:41209</item>
+					<item>211.95.16.106:41210</item>
+				</Trading>
+				<MarketData>
+					<item>117.186.20.194:41217</item>
+					<item>117.186.20.194:41218</item>
+					<item>211.95.16.106:41217</item>
+					<item>211.95.16.106:41218</item>
+				</MarketData>
+		    </Server>
+		</Servers>
+	</broker>
+	<broker BrokerID="2046" BrokerName="Z中航期货" BrokerEName="cafco"> 	
+		<Servers>				
+			<Server>
+				<Name>次席</Name>
+				<Se>1</Se>
+				<New>1</New>
+				<Trading>
+					<item>222.66.199.241:41133</item>
+					<item>116.247.119.41:41133</item>
+					<item>112.64.129.38:41133</item>
+					<item>120.136.171.228:41133</item>
+				</Trading>
+				<MarketData>
+					<item>222.66.199.241:42233</item>
+					<item>116.247.119.41:42233</item>
+					<item>112.64.129.38:42233</item>
+					<item>120.136.171.228:42233</item>
+				</MarketData>
+		    </Server>
+		</Servers>
+	</broker>
+<broker BrokerID="9999" BrokerName="simnow">
+  <Servers>
+  <Server> 
+     <Name>电信1</Name>
+    <Se>1</Se>
+	<New>1</New>
+	<Trading>
+		   <item>182.254.243.31:30001</item>
+		</Trading>
+	   <MarketData>
+		   <item>182.254.243.31:30011</item>
+	   </MarketData>
+  </Server>
+ <Server> 
+     <Name>电信2</Name>
+    <Se>1</Se>
+	<New>1</New>
+	<Trading>
+			<item>182.254.243.31:30002</item>
+	   </Trading>
+	   <MarketData>
+			<item>182.254.243.31:30012</item>
+	   </MarketData>
+  </Server>
+  <Server> 
+     <Name>全天站点</Name>
+    <Se>1</Se>
+	<New>1</New>
+	<Trading>
+		   <item>182.254.243.31:40001</item>
+		</Trading>
+	   <MarketData>
+		   <item>182.254.243.31:40011</item>
+	   </MarketData>
+  </Server>
+  </Servers>
+  </broker>
+</root>

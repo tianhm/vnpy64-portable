@@ -1,0 +1,7 @@
+{
+  "name": "CTP 行情",
+  "id": "local.ctp.md.gui",
+  "rust": ".",
+  "root": "App",
+  "appearance": "system"
+}
