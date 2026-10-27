@@ -1,0 +1,38 @@
+[package]
+name = "ctp-md-gui"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "CTP futures market-data board. No trading and no user password."
+readme = "README.md"
+
+[features]
+default = ["ctp_v6_7_7"]
+ctp_v6_7_2 = ["ctp2rs/v1alpha1", "ctp2rs/ctp_v6_7_2"]
+ctp_v6_7_7 = ["ctp2rs/v1alpha1", "ctp2rs/ctp_v6_7_7"]
+ctp_v6_7_11 = ["ctp2rs/v1alpha1", "ctp2rs/ctp_v6_7_11"]
+ctp_v6_7_13 = ["ctp2rs/v1alpha1", "ctp2rs/ctp_v6_7_13"]
+
+[dependencies]
+ctp2rs = { git = "https://github.com/pseudocodes/ctp2rs", rev = "2bad971d48d30ee5923f75e82f39dd58b8fe0af9", default-features = false }
+encoding_rs = "0.8"
+env_logger = "0.11"
+log = "0.4"
+nsh-core = { git = "https://github.com/longbridge/nsh", rev = "56fefe7f8c23522165d0faf30c7943cd02d0475b" }
+roxmltree = "0.20"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+nsh-platform-linux = { git = "https://github.com/longbridge/nsh", rev = "56fefe7f8c23522165d0faf30c7943cd02d0475b", default-features = false }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+nsh-platform-macos = { git = "https://github.com/longbridge/nsh", rev = "56fefe7f8c23522165d0faf30c7943cd02d0475b", default-features = false }
+
+[target.'cfg(target_os = "windows")'.dependencies]
+nsh-platform-windows = { git = "https://github.com/longbridge/nsh", rev = "56fefe7f8c23522165d0faf30c7943cd02d0475b", default-features = false }
+
+[dev-dependencies]
+nsh-engine = { git = "https://github.com/longbridge/nsh", rev = "56fefe7f8c23522165d0faf30c7943cd02d0475b", default-features = false }
+nsh-testing = { git = "https://github.com/longbridge/nsh", rev = "56fefe7f8c23522165d0faf30c7943cd02d0475b", default-features = false }
